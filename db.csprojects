@@ -1,0 +1,11 @@
+$TTL 3d
+@                       IN SOA  csprojects.clarkson.edu. root.cslabs.clarkson.edu. (
+                                210     ; serial
+                                1d      ; refresh
+                                2h      ; retry
+                                1w      ; expire
+                                1800 )  ; negative caching-ttl
+; Namservers
+@                       IN NS           talos
+xen                     IN A            128.153.145.10
+eln                     IN A            128.153.145.151

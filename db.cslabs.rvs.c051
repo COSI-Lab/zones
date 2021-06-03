@@ -1,0 +1,31 @@
+$TTL 3d
+@                       IN SOA  cslabs.clarkson.edu. root.cslabs.clarkson.edu. (
+                                210     ; serial
+                                1d      ; refresh
+                                2h      ; retry
+                                1w      ; expire
+                                1800 )  ; negative caching-ttl
+; Nameservers
+@                       IN NS   talos.cslabs.clarkson.edu.
+
+; Reverse 2605:6480:c051::/48
+
+;                                        1.5.0.c.0.8.4.6.5.0.6.2.ip6.arpa.
+;1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.x.x.x.x.1.5.0.c.0.8.4.6.5.0.6.2.ip6.arpa.
+
+; Essential Services
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.0.0 PTR ziltoid.cslabs.clarkson.edu.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.3.0.0.0 PTR talos.cslabs.clarkson.edu.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.4.0.0.0 PTR atlas.cslabs.clarkson.edu.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.5.0.0.0 PTR bacon.cslabs.clarkson.edu.
+
+; Public Services
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.1.0 PTR mirror.cslabs.clarkson.edu.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0 PTR dubsdot2.cslabs.clarkson.edu.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.1.0.1.0 PTR voip.cslabs.clarkson.edu.
+
+; Hardware
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.3.0.3.0 PTR norm.cslabs.clarkson.edu.
+
+; Bacon
+1.5.0.c.1.5.0.c.1.5.0.c.1.5.0.c.1.5.0.c PTR bacon.cslabs.clarkson.edu.

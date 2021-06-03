@@ -1,0 +1,166 @@
+$TTL 3d
+@                       IN SOA  cslabs.clarkson.edu. root.cslabs.clarkson.edu. (
+                                210     ; serial
+                                1d      ; refresh
+                                2h      ; retry
+                                1w      ; expire
+                                1800 )  ; negative caching-ttl
+
+; Namservers
+@                       IN NS           talos
+recursion               IN NS           talos
+
+; 144 subnet
+cthulu                  IN A            128.153.144.20
+cosi-01                 IN A            128.153.144.21
+cosi-02                 IN A            128.153.144.22
+cosi-03                 IN A            128.153.144.23
+cosi-04                 IN A            128.153.144.24
+cosi-05                 IN A            128.153.144.25
+cosi-06                 IN A            128.153.144.26
+cosi-07                 IN A            128.153.144.27
+cosi-08                 IN A            128.153.144.28
+3dprinter               IN A            128.153.144.29
+rx480                   IN A            128.153.144.30
+unifi01                 IN A            128.153.144.31
+itl-00                  IN A            128.153.144.40
+itl-01                  IN A            128.153.144.41
+itl-02                  IN A            128.153.144.42
+itl-03                  IN A            128.153.144.43
+itl-04                  IN A            128.153.144.44
+itl-05                  IN A            128.153.144.45
+itl-06                  IN A            128.153.144.46
+itl-07                  IN A            128.153.144.47
+itl-08                  IN A            128.153.144.48
+itl-09                  IN A            128.153.144.49
+itl-10                  IN A            128.153.144.50
+itl-11                  IN A            128.153.144.51
+itl-12                  IN A            128.153.144.52
+itl-13                  IN A            128.153.144.53
+itl-14                  IN A            128.153.144.54
+itl-15                  IN A            128.153.144.55
+itl-16                  IN A            128.153.144.56
+itl-17                  IN A            128.153.144.57
+itl-18                  IN A            128.153.144.58
+itl-19                  IN A            128.153.144.59
+itl-20                  IN A            128.153.144.60
+itl-21                  IN A            128.153.144.61
+itl-22                  IN A            128.153.144.62
+itl-23                  IN A            128.153.144.63
+itl-24                  IN A            128.153.144.64
+itl-25                  IN A            128.153.144.65
+
+; 145 subnet
+ziltoid                 IN A            128.153.145.2
+talos                   IN A            128.153.145.3
+atlas                   IN A            128.153.145.4
+bacon                   IN A            128.153.145.10
+mirror                  IN A            128.153.145.19
+f1                      IN A            128.153.145.20
+f2                      IN A            128.153.145.21
+tiamat                  IN A            128.153.145.41
+hydra                   IN A            128.153.145.42
+grand-dad               IN A            128.153.145.43
+elephant                IN A            128.153.145.44
+monika                  IN A            128.153.145.51
+voip                    IN A            128.153.145.80
+printer                 IN A            128.153.145.100
+info					IN A			128.153.145.101
+norm                    IN A            128.153.145.121
+undocs                  IN A            128.153.145.147
+docs                    IN A            128.153.145.148
+bouncer                 IN A            128.153.145.170
+dubsdot                 IN A            128.153.145.200
+dubsdot2                IN A            128.153.145.201
+@                       IN A            128.153.145.201
+crow                    IN A            128.153.145.207
+esports                 IN A            128.153.145.220
+cugi-mc                 IN A            128.153.145.228
+gitea                   IN A            128.153.145.233
+nas3                    IN A            128.153.145.248
+red-dwarf		        IN A		    128.153.145.249
+prometheus		        IN A		    128.153.145.250
+swm1                    IN A            128.153.145.251
+swm2                    IN A            128.153.145.252
+swm3                    IN A            128.153.145.253
+swm4                    IN A            128.153.145.254
+
+; 146 subnet
+146dhcp                 IN A            128.153.146.3
+hnd-dev                 IN A            128.153.146.25
+
+; IPv6
+ziltoid                 IN AAAA         2605:6480:c051:0002::1
+talos                   IN AAAA         2605:6480:c051:0003::1
+atlas                   IN AAAA         2605:6480:c051:0004::1
+bacon                   IN AAAA         2605:6480:c051:0005::1
+mirror                  IN AAAA         2605:6480:c051:0100::1
+dubsdot2                IN AAAA         2605:6480:c051:0200::1
+c051                    IN AAAA         2605:6480:c051:c051:c051:c051:c051:c051
+voip6                   IN AAAA         2605:6480:c051:0101::1
+norm                    IN AAAA         2605:6480:c051:0303::1
+
+; CNAMEs
+dns1                    IN CNAME        talos
+dns2                    IN CNAME        atlas
+lapras                  IN CNAME        talos
+radius                  IN CNAME        talos
+files                   IN CNAME        dubsdot2
+print                   IN CNAME        dubsdot
+fsuvius                 IN CNAME        dubsdot
+fsu                     IN CNAME        dubsdot
+ip                      IN CNAME        dubsdot
+talks                   IN CNAME        dubsdot2
+oldtalks                IN CNAME        dubsdot
+sklat                   IN CNAME        dubsdot
+grm                     IN CNAME        dubsdot
+pluto                   IN CNAME        dubsdot
+cnrl                    IN CNAME        dubsdot
+derpysayings            IN CNAME        dubsdot
+probablyverifier        IN CNAME        dubsdot
+history                 IN CNAME        dubsdot
+place                   IN CNAME        dubsdot
+mirrorstat              IN CNAME        dubsdot
+scan                    IN CNAME        dubsdot
+life                    IN CNAME        dubsdot
+poem                    IN CNAME        dubsdot
+talk                    IN CNAME        dubsdot
+waste                   IN CNAME        dubsdot
+starwars                IN CNAME        dubsdot
+clarkson                IN CNAME        dubsdot
+scheduler               IN CNAME        dubsdot
+dev                     IN CNAME        dubsdot
+tsdata                  IN CNAME        dubsdot
+browniepoints           IN CNAME        dubsdot
+wishlist                IN CNAME        dubsdot
+login                   IN CNAME        dubsdot
+dndarchive              IN CNAME        dubsdot
+dnd                     IN CNAME        dubsdot
+folding                 IN CNAME        dubsdot
+random			        IN CNAME    	dubsdot
+automatafl		        IN CNAME    	dubsdot
+meatpod                 IN CNAME        bacon
+metapod                 IN CNAME        bacon
+defcon                  IN CNAME        bacon
+xen                     IN CNAME        bacon
+beep                    IN CNAME        ziltoid
+discord                 IN CNAME        crow
+git                     IN CNAME        gitea
+
+; TXT records
+_kerberos               IN TXT          "CSLABS.CLARKSON.EDU"
+
+; NS delegations
+recursion               IN NS           ns.recursion
+
+; Glue As
+ns.recursion            IN A            128.153.145.10
+
+; CAA
+@                       IN CAA          128 issue "letsencrypt.org"
+talos                   IN CAA          128 issue "talos.cslabs.clarkson.edu"
+atlas                   IN CAA          128 issue "letsencrypt.org"
+mirror                  IN CAA          128 issue "letsencrypt.org"
+dubsdot                 IN CAA          128 issue "letsencrypt.org"
+library                 IN CAA          128 issue "letsencrypt.org"
+gitea                   IN CAA          128 issue "letsencrypt.org"

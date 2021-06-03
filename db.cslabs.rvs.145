@@ -1,0 +1,44 @@
+$TTL 3d
+@                       IN SOA  cslabs.clarkson.edu. root.cslabs.clarkson.edu. (
+                                210     ; serial
+                                1d      ; refresh
+                                2h      ; retry
+                                1w      ; expire
+                                1800 )  ; negative caching-ttl
+; Nameservers
+@                       IN NS   talos.cslabs.clarkson.edu.
+
+; Reverse 128.153.145/24
+; Note: the trailing dots are VERY IMPORTANT!
+2                       IN PTR  ziltoid.cslabs.clarkson.edu.
+3                       IN PTR  talos.cslabs.clarkson.edu.
+4                       IN PTR  atlas.cslabs.clarkson.edu.
+10                      IN PTR  bacon.cslabs.clarkson.edu.
+19                      IN PTR  mirror.cslabs.clarkson.edu.
+20                      IN PTR  f1.cslabs.clarkson.edu.
+21                      IN PTR  f2.cslabs.clarkson.edu.
+41                      IN PTR  tiamat.cslabs.clarkson.edu.
+42                      IN PTR  hydra.cslabs.clarkson.edu.
+43                      IN PTR  grand-dad.cslabs.clarkson.edu.
+44                      IN PTR  elephant.cslabs.clarkson.edu.
+51                      IN PTR  monika.cslabs.clarkson.edu.
+80                      IN PTR  voip.cslabs.clarkson.edu.
+100                     IN PTR  printer.cslabs.clarkson.edu.
+101                     IN PTR	info.cslabs.clarkson.edu
+121                     IN PTR  norm.cslabs.clarkson.edu.
+147                     IN PTR  undocs.cslabs.clarkson.edu.
+148                     IN PTR  docs.cslabs.clarkson.edu.
+170                     IN PTR  bouncer.cslabs.clarkson.edu.
+200                     IN PTR  dubsdot.cslabs.clarkson.edu.
+201                     IN PTR  dubsdot2.cslabs.clarkson.edu.
+207                     IN PTR  crow.cslabs.clarkson.edu.
+220                     IN PTR  esports.cslabs.clarkson.edu.
+228                     IN PTR  cugi-mc.cslabs.clarkson.edu.
+233                     IN PTR  gitea.cslabs.clarkson.edu.
+248                     IN PTR  nas3.cslabs.clarkson.edu.
+249	                    IN PTR	red-dwarf.cslabs.clarkson.edu.
+250	                    IN PTR	prometheus.cslabs.clarkson.edu.
+251                     IN PTR  swm1.cslabs.clarkson.edu.
+252                     IN PTR  swm2.cslabs.clarkson.edu.
+253                     IN PTR  swm3.cslabs.clarkson.edu.
+254                     IN PTR  swm4.cslabs.clarkson.edu.

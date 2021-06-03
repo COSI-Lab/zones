@@ -1,0 +1,14 @@
+$TTL 3d
+@                       IN SOA  cslabs.clarkson.edu. root.cslabs.clarkson.edu. (
+                                210     ; serial
+                                1d      ; refresh
+                                2h      ; retry
+                                1w      ; expire
+                                1800 )  ; negative caching-ttl
+; Nameservers
+@                       IN NS   talos.cslabs.clarkson.edu.
+
+; Reverse 128.153.146/24
+; Note: the trailing dots are VERY IMPORTANT!
+3       IN PTR  146dhcp.cslabs.clarkson.edu.
+25       IN PTR  hnd-dev.cslabs.clarkson.edu.

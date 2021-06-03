@@ -1,0 +1,51 @@
+$TTL 3d
+@                       IN SOA  cslabs.clarkson.edu. root.cslabs.clarkson.edu. (
+                                210       ; serial
+                                1d      ; refresh
+                                2h      ; retry
+                                1w      ; expire
+                                1800 )  ; negative caching-ttl
+
+; Nameservers
+@                       IN NS   talos.cslabs.clarkson.edu.
+
+; Reverse 128.153.144/24
+; Note: the trailing dots are VERY IMPORTANT!
+20                      IN PTR  ryzen.cslabs.clarkson.edu.
+21                      IN PTR  cosi-01.cslabs.clarkson.edu.
+22                      IN PTR  cosi-02.cslabs.clarkson.edu.
+23                      IN PTR  cosi-03.cslabs.clarkson.edu.
+24                      IN PTR  cosi-04.cslabs.clarkson.edu.
+25                      IN PTR  cosi-05.cslabs.clarkson.edu.
+26                      IN PTR  cosi-06.cslabs.clarkson.edu.
+27                      IN PTR  cosi-07.cslabs.clarkson.edu.
+28                      IN PTR  cosi-08.cslabs.clarkson.edu.
+29                      IN PTR  3dprinter.cslabs.clarkson.edu.
+30                      IN PTR  rx480.cslabs.clarkson.edu.
+31                      IN PTR  unifi01.cslabs.clarkson.edu.
+40                      IN PTR  itl-00.cslabs.clarkson.edu.
+41                      IN PTR  itl-01.cslabs.clarkson.edu.
+42                      IN PTR  itl-02.cslabs.clarkson.edu.
+43                      IN PTR  itl-03.cslabs.clarkson.edu.
+44                      IN PTR  itl-04.cslabs.clarkson.edu.
+45                      IN PTR  itl-05.cslabs.clarkson.edu.
+46                      IN PTR  itl-06.cslabs.clarkson.edu.
+47                      IN PTR  itl-07.cslabs.clarkson.edu.
+48                      IN PTR  itl-08.cslabs.clarkson.edu.
+49                      IN PTR  itl-09.cslabs.clarkson.edu.
+50                      IN PTR  itl-10.cslabs.clarkson.edu.
+51                      IN PTR  itl-11.cslabs.clarkson.edu.
+52                      IN PTR  itl-12.cslabs.clarkson.edu.
+53                      IN PTR  itl-13.cslabs.clarkson.edu.
+54                      IN PTR  itl-14.cslabs.clarkson.edu.
+55                      IN PTR  itl-15.cslabs.clarkson.edu.
+56                      IN PTR  itl-16.cslabs.clarkson.edu.
+57                      IN PTR  itl-17.cslabs.clarkson.edu.
+58                      IN PTR  itl-18.cslabs.clarkson.edu.
+59                      IN PTR  itl-19.cslabs.clarkson.edu.
+60                      IN PTR  itl-20.cslabs.clarkson.edu.
+61                      IN PTR  itl-21.cslabs.clarkson.edu.
+62                      IN PTR  itl-22.cslabs.clarkson.edu.
+63                      IN PTR  itl-23.cslabs.clarkson.edu.
+64                      IN PTR  itl-24.cslabs.clarkson.edu.
+65                      IN PTR  itl-25.cslabs.clarkson.edu.
