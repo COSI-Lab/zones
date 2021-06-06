@@ -1,6 +1,6 @@
 $TTL 3d
 @                       IN SOA  cslabs.clarkson.edu. root.cslabs.clarkson.edu. (
-                                210     ; serial
+                                211     ; serial
                                 1d      ; refresh
                                 2h      ; retry
                                 1w      ; expire
@@ -66,6 +66,7 @@ monika                  IN A            128.153.145.51
 voip                    IN A            128.153.145.80
 printer                 IN A            128.153.145.100
 info					IN A			128.153.145.101
+honors					IN A			128.153.145.111
 norm                    IN A            128.153.145.121
 undocs                  IN A            128.153.145.147
 docs                    IN A            128.153.145.148
