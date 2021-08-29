@@ -1,6 +1,6 @@
 $TTL 3d
 @                       IN SOA  cosi.clarkson.edu. root.cslabs.clarkson.edu. (
-                                212     ; serial
+                                213     ; serial
                                 1d      ; refresh
                                 2h      ; retry
                                 1w      ; expire
@@ -74,6 +74,7 @@ bouncer                 IN A            128.153.145.170
 dubsdot                 IN A            128.153.145.200
 dubsdot2                IN A            128.153.145.201
 @                       IN A            128.153.145.201
+fog                     IN A            128.153.145.204
 crow                    IN A            128.153.145.207
 esports                 IN A            128.153.145.220
 cugi-mc                 IN A            128.153.145.228

@@ -1,6 +1,6 @@
 $TTL 3d
 @                       IN SOA  cslabs.clarkson.edu. root.cslabs.clarkson.edu. (
-                                212     ; serial
+                                213     ; serial
                                 1d      ; refresh
                                 2h      ; retry
                                 1w      ; expire
