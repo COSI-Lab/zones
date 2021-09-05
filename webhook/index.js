@@ -12,7 +12,7 @@ app.post('/', (req, res) => {
 
     exec("cd .. && git reset --hard && git pull");
 
-    exec("systemctl reload nsd", (error, _, _) => {
+    exec("systemctl reload nsd", (error, _stdout, _stderr) => {
         if (error) {
             res.sendStatus(500);
         } else {
