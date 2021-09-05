@@ -152,6 +152,7 @@ drupal                  IN CNAME        dubsdot2
 
 ; TXT records
 _kerberos               IN TXT          "CSLABS.CLARKSON.EDU"
+test                    IN TXT          "Hello world"
 
 ; NS delegations
 recursion               IN NS           ns.recursion
