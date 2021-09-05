@@ -10,10 +10,14 @@ The way that you update a configuration is as follows:
 2. Add the changes you want (remember to add reverse DNS entries if you are adding A or AAAA records)
 3. Run `./update_serial.py` which auto increments serials for all zone files
 4. Run `./check_zones.py` to check your work
-5. Commit your changes with a meaningful Git message. For example, "Serial 126, added random.cosi.clarkson.edu"
-6. Log into Talos (128.153.145.3), become root, and `cd /etc/bind`
-7. `git pull` This will update the repository locally.
-8. `rndc reload` This will reload the DNS server.
+5. Commit & Push your changes with a meaningful Git message. For example, "Serial 126, added random.cosi.clarkson.edu"
+
+The webhook attached to this repo should trigger atlas to pull down and load any changes. However if this fails:
+
+1. Log into atlas and **become root**
+2. `cd /etc/nsd/zones`
+3. `git pull`
+4. `systemctl reload nsd`
 
 If you are going to do it a different way, please make sure that you update the Git server with the newest version of the configuration, and be sure to make it so that we only need to "fast forward" on the DNS server itself.
 
