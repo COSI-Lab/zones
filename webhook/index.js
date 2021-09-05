@@ -8,6 +8,7 @@ app.use(express.json())
 app.post('/', (req, res) => {
     if (req.body.secret != process.env.SECRET) {
         res.sendStatus(403);
+        return;
     }
 
     exec("cd .. && git reset --hard && git pull");
