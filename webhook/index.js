@@ -11,6 +11,8 @@ app.post('/', (req, res) => {
         return;
     }
 
+    console.log("pull and reload changes");
+
     exec("cd .. && git reset --hard && git pull");
 
     exec("systemctl reload nsd", (error, _stdout, _stderr) => {
