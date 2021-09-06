@@ -1,9 +1,6 @@
 #!/usr/bin/env python3
 import re, sys, os
 
-if not os.geteuid() == 0:
-    sys.exit("You must be root")
-
 prop_serial = None
 if len(sys.argv) > 1:
     try:
