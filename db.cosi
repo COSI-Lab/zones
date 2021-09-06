@@ -49,7 +49,7 @@ itl-22                  IN A            128.153.144.62
 itl-23                  IN A            128.153.144.63
 itl-24                  IN A            128.153.144.64
 itl-25                  IN A            128.153.144.65
-cugc-vanilla            IN A            128.153.144.205
+cugc-mc                 IN A            128.153.144.205
 
 ; 145 subnet
 ziltoid                 IN A            128.153.145.2

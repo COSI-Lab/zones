@@ -49,4 +49,4 @@ $TTL 3d
 63                      IN PTR  itl-23.cslabs.clarkson.edu.
 64                      IN PTR  itl-24.cslabs.clarkson.edu.
 65                      IN PTR  itl-25.cslabs.clarkson.edu.
-205                     IN PTR  cugc-vanilla.cslabs.clarkson.edu.
+205                     IN PTR  cugc-mc.cslabs.clarkson.edu.
