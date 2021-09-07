@@ -1,6 +1,6 @@
 $TTL 3d
 @                       IN SOA  cslabs.clarkson.edu. root.cslabs.clarkson.edu. (
-                                216     ; serial
+                                217     ; serial
                                 1d      ; refresh
                                 2h      ; retry
                                 1w      ; expire
@@ -31,6 +31,7 @@ $TTL 3d
 170                     IN PTR  bouncer.cslabs.clarkson.edu.
 200                     IN PTR  dubsdot.cslabs.clarkson.edu.
 201                     IN PTR  dubsdot2.cslabs.clarkson.edu.
+203                     IN PTR  cugc-mc.cslabs.clarkson.edu.
 207                     IN PTR  crow.cslabs.clarkson.edu.
 220                     IN PTR  esports.cslabs.clarkson.edu.
 228                     IN PTR  cugi-mc.cslabs.clarkson.edu.
