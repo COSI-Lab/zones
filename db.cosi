@@ -1,13 +1,13 @@
 $TTL 3d
-@                       IN SOA  cosi.clarkson.edu. root.cslabs.clarkson.edu. (
-                                213     ; serial
+@                       IN SOA  atlas root.cslabs.clarkson.edu. (
+                                214     ; serial
                                 1d      ; refresh
                                 2h      ; retry
                                 1w      ; expire
                                 1800 )  ; negative caching-ttl
 
 ; Namservers
-@                       IN NS           talos
+@                       IN NS           atlas
 recursion               IN NS           talos
 
 ; 144 subnet
