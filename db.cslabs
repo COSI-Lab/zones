@@ -1,6 +1,6 @@
 $TTL 3d
-@                       IN SOA  atlas root.cslabs.clarkson.edu. (
-                                214     ; serial
+@                       IN SOA  cslabs.clarkson.edu. root.cslabs.clarkson.edu. (
+                                217     ; serial
                                 1d      ; refresh
                                 2h      ; retry
                                 1w      ; expire
@@ -49,6 +49,7 @@ itl-22                  IN A            128.153.144.62
 itl-23                  IN A            128.153.144.63
 itl-24                  IN A            128.153.144.64
 itl-25                  IN A            128.153.144.65
+cugc-mc                 IN A            128.153.145.203
 
 ; 145 subnet
 ziltoid                 IN A            128.153.145.2
@@ -149,6 +150,9 @@ beep                    IN CNAME        ziltoid
 discord                 IN CNAME        crow
 git                     IN CNAME        gitea
 drupal                  IN CNAME        dubsdot2
+condor                  IN CNAME        amethyst.woodstock.clarkson.edu.
+condor-team             IN CNAME        stew3254.github.io.
+www.condor-team         IN CNAME        stew3254.github.io.
 
 ; TXT records
 _kerberos               IN TXT          "CSLABS.CLARKSON.EDU"
