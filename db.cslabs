@@ -1,6 +1,6 @@
 $TTL 3d
 @                       IN SOA  cslabs.clarkson.edu. root.cslabs.clarkson.edu. (
-                                218     ; serial
+                                219     ; serial
                                 1d      ; refresh
                                 2h      ; retry
                                 1w      ; expire
@@ -64,6 +64,7 @@ hydra                   IN A            128.153.145.42
 grand-dad               IN A            128.153.145.43
 elephant                IN A            128.153.145.44
 monika                  IN A            128.153.145.51
+unbound                 IN A            128.153.145.53
 voip                    IN A            128.153.145.80
 printer                 IN A            128.153.145.100
 info					IN A			128.153.145.101
