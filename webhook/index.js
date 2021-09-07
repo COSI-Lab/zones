@@ -24,6 +24,7 @@ app.post('/', (req, res) => {
     });
 })
 
-app.listen(80, () => {
-    console.log(`Example app listening at http://localhost:80`)
+const PORT = 8080
+app.listen(PORT, () => {
+    console.log(`Example app listening at http://localhost:${PORT}`)
 })
