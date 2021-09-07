@@ -1,6 +1,6 @@
 $TTL 3d
 @                       IN SOA  talos root.cslabs.clarkson.edu. (
-                                217     ; serial
+                                218     ; serial
                                 1d      ; refresh
                                 2h      ; retry
                                 1w      ; expire
