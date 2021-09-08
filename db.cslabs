@@ -1,14 +1,13 @@
-$TTL 3d
-@                       IN SOA  cslabs.clarkson.edu. root.cslabs.clarkson.edu. (
-                                219     ; serial
+$TTL 1h
+@                       IN SOA  talos.cslabs.clarkson.edu. root.cslabs.clarkson.edu. (
+                                220     ; serial
                                 1d      ; refresh
                                 2h      ; retry
                                 1w      ; expire
                                 1800 )  ; negative caching-ttl
 
 ; Namservers
-@                       IN NS           atlas
-recursion               IN NS           talos
+@                       IN NS           talos
 
 ; 144 subnet
 cthulu                  IN A            128.153.144.20
@@ -157,13 +156,6 @@ www.condor-team         IN CNAME        stew3254.github.io.
 
 ; TXT records
 _kerberos               IN TXT          "CSLABS.CLARKSON.EDU"
-test                    IN TXT          "test"
-
-; NS delegations
-recursion               IN NS           ns.recursion
-
-; Glue As
-ns.recursion            IN A            128.153.145.10
 
 ; CAA
 @                       IN CAA          128 issue "letsencrypt.org"
