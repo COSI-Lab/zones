@@ -1,6 +1,6 @@
 $TTL 1h
 @                       IN SOA  talos.cslabs.clarkson.edu. root.cslabs.clarkson.edu. (
-                                220     ; serial
+                                221     ; serial
                                 1d      ; refresh
                                 2h      ; retry
                                 1w      ; expire
@@ -156,6 +156,7 @@ www.condor-team         IN CNAME        stew3254.github.io.
 
 ; TXT records
 _kerberos               IN TXT          "CSLABS.CLARKSON.EDU"
+test                    IN TXT          "HELLO WORLD"
 
 ; CAA
 @                       IN CAA          128 issue "letsencrypt.org"
