@@ -1,6 +1,6 @@
 $TTL 1h
 @                       IN SOA  talos.cslabs.clarkson.edu. root.cslabs.clarkson.edu. (
-                                221     ; serial
+                                222     ; serial
                                 1d      ; refresh
                                 2h      ; retry
                                 1w      ; expire
@@ -97,6 +97,7 @@ ziltoid                 IN AAAA         2605:6480:c051:0002::1
 talos                   IN AAAA         2605:6480:c051:0003::1
 atlas                   IN AAAA         2605:6480:c051:0004::1
 bacon                   IN AAAA         2605:6480:c051:0005::1
+unbound                 IN AAAA         2605:6480:c051:0053::1
 mirror                  IN AAAA         2605:6480:c051:0100::1
 dubsdot2                IN AAAA         2605:6480:c051:0200::1
 c051                    IN AAAA         2605:6480:c051:c051:c051:c051:c051:c051
