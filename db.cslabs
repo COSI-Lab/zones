@@ -1,6 +1,6 @@
 $TTL 1h
 @                       IN SOA  talos.cslabs.clarkson.edu. root.cslabs.clarkson.edu. (
-                                222     ; serial
+                                223     ; serial
                                 1d      ; refresh
                                 2h      ; retry
                                 1w      ; expire
@@ -115,40 +115,28 @@ fsuvius                 IN CNAME        dubsdot
 fsu                     IN CNAME        dubsdot
 ip                      IN CNAME        dubsdot
 talks                   IN CNAME        dubsdot2
-oldtalks                IN CNAME        dubsdot
-sklat                   IN CNAME        dubsdot
+sklat                   IN CNAME        talks
 grm                     IN CNAME        dubsdot
 pluto                   IN CNAME        dubsdot
 cnrl                    IN CNAME        dubsdot
 derpysayings            IN CNAME        dubsdot
-probablyverifier        IN CNAME        dubsdot
-history                 IN CNAME        dubsdot
 place                   IN CNAME        dubsdot
-mirrorstat              IN CNAME        dubsdot
 scan                    IN CNAME        dubsdot
 life                    IN CNAME        dubsdot
 poem                    IN CNAME        dubsdot
-talk                    IN CNAME        dubsdot
 waste                   IN CNAME        dubsdot
 starwars                IN CNAME        dubsdot
 clarkson                IN CNAME        dubsdot
-scheduler               IN CNAME        dubsdot
 dev                     IN CNAME        dubsdot
 tsdata                  IN CNAME        dubsdot
 browniepoints           IN CNAME        dubsdot
 wishlist                IN CNAME        dubsdot
-login                   IN CNAME        dubsdot
 dndarchive              IN CNAME        dubsdot
 dnd                     IN CNAME        dubsdot
 folding                 IN CNAME        dubsdot
-random			        IN CNAME    	dubsdot
+random			        IN CNAME    	dubsdot2
 automatafl		        IN CNAME    	dubsdot
-meatpod                 IN CNAME        bacon
-metapod                 IN CNAME        bacon
-defcon                  IN CNAME        bacon
-xen                     IN CNAME        bacon
 beep                    IN CNAME        ziltoid
-discord                 IN CNAME        crow
 git                     IN CNAME        gitea
 drupal                  IN CNAME        dubsdot2
 condor                  IN CNAME        amethyst.woodstock.clarkson.edu.
