@@ -1,6 +1,6 @@
 $TTL 1h
 @                       IN SOA  talos.cslabs.clarkson.edu. root.cslabs.clarkson.edu. (
-                                223     ; serial
+                                224     ; serial
                                 1d      ; refresh
                                 2h      ; retry
                                 1w      ; expire
@@ -64,6 +64,7 @@ grand-dad               IN A            128.153.145.43
 elephant                IN A            128.153.145.44
 monika                  IN A            128.153.145.51
 unbound                 IN A            128.153.145.53
+ender                   IN A            128.153.145.54
 voip                    IN A            128.153.145.80
 printer                 IN A            128.153.145.100
 info					IN A			128.153.145.101

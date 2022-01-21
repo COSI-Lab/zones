@@ -1,0 +1,13 @@
+[Unit]
+Description=Automatically pull zones and reload nsd on commit 
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/etc/nsd/zones
+ExecStart=npm start
+Restart=always
+
+[Install]
+WantedBy=default.target
