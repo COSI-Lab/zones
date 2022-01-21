@@ -1,6 +1,6 @@
 $TTL 1h
 @                       IN SOA  talos.cslabs.clarkson.edu. root.cslabs.clarkson.edu. (
-                                224     ; serial
+                                226     ; serial
                                 1d      ; refresh
                                 2h      ; retry
                                 1w      ; expire
@@ -70,6 +70,7 @@ printer                 IN A            128.153.145.100
 info					IN A			128.153.145.101
 honors					IN A			128.153.145.111
 norm                    IN A            128.153.145.121
+comm                    IN A            128.153.145.146
 undocs                  IN A            128.153.145.147
 docs                    IN A            128.153.145.148
 bouncer                 IN A            128.153.145.170
@@ -152,6 +153,10 @@ beep                    IN CNAME        ziltoid
 discord                 IN CNAME        crow
 git                     IN CNAME        gitea
 drupal                  IN CNAME        dubsdot2
+
+; SRV records
+_xmpp-client._tcp       IN SRV          5 10 5222 comm
+_xmpp-server._tcp       IN SRV          5 10 5269 comm
 
 ; TXT records
 _kerberos               IN TXT          "CSLABS.CLARKSON.EDU"
