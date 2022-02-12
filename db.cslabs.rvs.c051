@@ -1,6 +1,6 @@
 $TTL 1h
 @                       IN SOA  talos.cslabs.clarkson.edu. root.cslabs.clarkson.edu. (
-                                227     ; serial
+                                228     ; serial
                                 1d      ; refresh
                                 2h      ; retry
                                 1w      ; expire
@@ -29,3 +29,5 @@ $TTL 1h
 
 ; Bacon
 1.5.0.c.1.5.0.c.1.5.0.c.1.5.0.c.1.5.0.c PTR bacon.cslabs.clarkson.edu.
+
+broken                                  CNAME dubsdot.cslabs.clarkson.edu.
