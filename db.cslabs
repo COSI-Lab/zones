@@ -1,6 +1,6 @@
 $TTL 1h
 @                       IN SOA  talos.cslabs.clarkson.edu. root.cslabs.clarkson.edu. (
-                                228     ; serial
+                                229     ; serial
                                 1d      ; refresh
                                 2h      ; retry
                                 1w      ; expire
@@ -139,6 +139,7 @@ dnd                     IN CNAME        dubsdot
 folding                 IN CNAME        dubsdot
 random			        IN CNAME    	dubsdot2
 automatafl		        IN CNAME    	dubsdot
+broken			IN CNAME	dubsdot
 beep                    IN CNAME        ziltoid
 git                     IN CNAME        gitea
 drupal                  IN CNAME        dubsdot2
