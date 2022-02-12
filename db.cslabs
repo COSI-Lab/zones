@@ -1,6 +1,6 @@
 $TTL 1h
 @                       IN SOA  talos.cslabs.clarkson.edu. root.cslabs.clarkson.edu. (
-                                229     ; serial
+                                230     ; serial
                                 1d      ; refresh
                                 2h      ; retry
                                 1w      ; expire
@@ -67,6 +67,7 @@ unbound                 IN A            128.153.145.53
 ender                   IN A            128.153.145.54
 voip                    IN A            128.153.145.80
 materiae                IN A            128.153.145.81
+samuraihawks            IN A            128.153.145.82
 printer                 IN A            128.153.145.100
 info					IN A			128.153.145.101
 honors					IN A			128.153.145.111
