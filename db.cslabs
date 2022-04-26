@@ -142,13 +142,14 @@ dnd                     IN CNAME        dubsdot
 folding                 IN CNAME        dubsdot
 random			        IN CNAME    	dubsdot2
 automatafl		        IN CNAME    	dubsdot
-broken			IN CNAME	dubsdot
+broken			        IN CNAME	    dubsdot
 beep                    IN CNAME        ziltoid
 git                     IN CNAME        gitea
 drupal                  IN CNAME        dubsdot2
 condor                  IN CNAME        amethyst.woodstock.clarkson.edu.
 condor-team             IN CNAME        stew3254.github.io.
 www.condor-team         IN CNAME        stew3254.github.io.
+final-samuraihawks      IN CNAME        samuraihawks
 
 ; SRV records
 _ldap._tcp              IN SRV          5 10 636 talos

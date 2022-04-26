@@ -149,7 +149,7 @@ dnd                     IN CNAME        dubsdot
 folding                 IN CNAME        dubsdot
 random			        IN CNAME    	dubsdot2
 automatafl		        IN CNAME    	dubsdot
-broken			IN CNAME	dubsdot
+broken			        IN CNAME        dubsdot
 meatpod                 IN CNAME        bacon
 metapod                 IN CNAME        bacon
 defcon                  IN CNAME        bacon
@@ -158,6 +158,7 @@ beep                    IN CNAME        ziltoid
 discord                 IN CNAME        crow
 git                     IN CNAME        gitea
 drupal                  IN CNAME        dubsdot2
+final-samuraihawks      IN CNAME        samuraihawks
 
 ; SRV records
 _xmpp-client._tcp       IN SRV          5 10 5222 comm
