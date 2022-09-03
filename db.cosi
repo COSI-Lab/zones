@@ -1,6 +1,6 @@
 $TTL 1h
 @                       IN SOA  talos.cslabs.clarkson.edu. root.cslabs.clarkson.edu. (
-                                233     ; serial
+                                234     ; serial
                                 1d      ; refresh
                                 2h      ; retry
                                 1w      ; expire
@@ -121,6 +121,7 @@ fsuvius                 IN CNAME        dubsdot
 fsu                     IN CNAME        dubsdot
 ip                      IN CNAME        dubsdot
 talks                   IN CNAME        dubsdot2
+book                    IN CNAME        dubsdot2
 oldtalks                IN CNAME        dubsdot
 sklat                   IN CNAME        dubsdot
 grm                     IN CNAME        dubsdot
