@@ -1,6 +1,6 @@
 $TTL 1h
 @                       IN SOA  talos.cslabs.clarkson.edu. root.cslabs.clarkson.edu. (
-                                234     ; serial
+                                235     ; serial
                                 1d      ; refresh
                                 2h      ; retry
                                 1w      ; expire
@@ -160,6 +160,7 @@ discord                 IN CNAME        crow
 git                     IN CNAME        gitea
 drupal                  IN CNAME        dubsdot2
 final-samuraihawks      IN CNAME        samuraihawks
+auth                    IN CNAME        talos
 
 ; SRV records
 _xmpp-client._tcp       IN SRV          5 10 5222 comm

@@ -1,6 +1,6 @@
 $TTL 1h
 @                       IN SOA  talos.cslabs.clarkson.edu. root.cslabs.clarkson.edu. (
-                                234     ; serial
+                                235     ; serial
                                 1d      ; refresh
                                 2h      ; retry
                                 1w      ; expire
@@ -151,6 +151,7 @@ condor                  IN CNAME        amethyst.woodstock.clarkson.edu.
 condor-team             IN CNAME        stew3254.github.io.
 www.condor-team         IN CNAME        stew3254.github.io.
 final-samuraihawks      IN CNAME        samuraihawks
+auth                    IN CNAME        talos
 
 ; SRV records
 _ldap._tcp              IN SRV          5 10 636 talos
