@@ -12,8 +12,6 @@ if len(sys.argv) > 1:
 FILES = [
     'db.cosi',
     'db.cslabs',
-    'db.csprojects',
-    #'db.cslabs.rvs',
     'db.cslabs.rvs.144',
     'db.cslabs.rvs.145',
     'db.cslabs.rvs.146',

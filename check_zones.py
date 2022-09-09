@@ -4,11 +4,9 @@ import re
 ORIGINS = {
         'db.cslabs': 'cslabs.clarkson.edu',
         'db.cosi': 'cosi.clarkson.edu',
-        #'db.csprojects': 'csprojects.clarkson.edu',
 }
 
 REVERSE = {
-        #'db.cslabs.rvs': ?,
         'db.cslabs.rvs.144': '128.153.144.',
         'db.cslabs.rvs.145': '128.153.145.',
         'db.cslabs.rvs.146': '128.153.146.',
