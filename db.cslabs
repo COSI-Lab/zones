@@ -1,6 +1,6 @@
 $TTL 1h
 @                       IN SOA  talos.cslabs.clarkson.edu. root.cslabs.clarkson.edu. (
-                                235     ; serial
+                                236     ; serial
                                 1d      ; refresh
                                 2h      ; retry
                                 1w      ; expire
@@ -161,6 +161,8 @@ _kerberos._udp          IN SRV          5 10 88 talos
 _kerberos._udp          IN SRV          5 5 750 talos
 _kpasswd._tcp           IN SRV          5 10 464 talos
 _kpasswd._tcp           IN SRV          5 9 749 talos
+_xmpp-client._tcp       IN SRV          5 10 5222 eldwyn
+_xmpp-server._tcp       IN SRV          5 10 5269 eldwyn
 
 ; TXT records
 _kerberos               IN TXT          "CSLABS.CLARKSON.EDU"

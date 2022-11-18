@@ -1,6 +1,6 @@
 $TTL 1h
 @                       IN SOA  talos.cslabs.clarkson.edu. root.cslabs.clarkson.edu. (
-                                235     ; serial
+                                236     ; serial
                                 1d      ; refresh
                                 2h      ; retry
                                 1w      ; expire
@@ -164,8 +164,6 @@ final-samuraihawks      IN CNAME        samuraihawks
 auth                    IN CNAME        talos
 
 ; SRV records
-_xmpp-client._tcp       IN SRV          5 10 5222 comm
-_xmpp-server._tcp       IN SRV          5 10 5269 comm
 
 ; TXT records
 _kerberos               IN TXT          "CSLABS.CLARKSON.EDU"
