@@ -1,6 +1,6 @@
 $TTL 1h
 @                       IN SOA  talos.cslabs.clarkson.edu. root.cslabs.clarkson.edu. (
-                                236     ; serial
+                                237     ; serial
                                 1d      ; refresh
                                 2h      ; retry
                                 1w      ; expire
@@ -116,6 +116,10 @@ dns2                    IN CNAME        atlas
 lapras                  IN CNAME        talos
 radius                  IN CNAME        talos
 comm			IN CNAME 	eldwyn
+muc.comm		IN CNAME	eldwyn
+pubsub.comm		IN CNAME	eldwyn
+proxy.comm		IN CNAME	eldwyn
+upload.comm		IN CNAME	eldwyn
 files                   IN CNAME        dubsdot2
 print                   IN CNAME        dubsdot
 fsuvius                 IN CNAME        dubsdot
