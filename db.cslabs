@@ -1,6 +1,6 @@
 $TTL 1h
 @                       IN SOA  talos.cslabs.clarkson.edu. root.cslabs.clarkson.edu. (
-                                237     ; serial
+                                239     ; serial
                                 1d      ; refresh
                                 2h      ; retry
                                 1w      ; expire
@@ -79,7 +79,6 @@ undocs                  IN A            128.153.145.147
 docs                    IN A            128.153.145.148
 bouncer                 IN A            128.153.145.170
 dubsdot                 IN A            128.153.145.200
-dubsdot2                IN A            128.153.145.201
 @                       IN A            128.153.145.201
 fog                     IN A            128.153.145.204
 crow                    IN A            128.153.145.207
@@ -105,7 +104,6 @@ atlas                   IN AAAA         2605:6480:c051:0004::1
 bacon                   IN AAAA         2605:6480:c051:0005::1
 unbound                 IN AAAA         2605:6480:c051:0053::1
 mirror                  IN AAAA         2605:6480:c051:0100::1
-dubsdot2                IN AAAA         2605:6480:c051:0200::1
 c051                    IN AAAA         2605:6480:c051:c051:c051:c051:c051:c051
 voip6                   IN AAAA         2605:6480:c051:0101::1
 norm                    IN AAAA         2605:6480:c051:0303::1
@@ -120,13 +118,13 @@ muc.comm		IN CNAME	eldwyn
 pubsub.comm		IN CNAME	eldwyn
 proxy.comm		IN CNAME	eldwyn
 upload.comm		IN CNAME	eldwyn
-files                   IN CNAME        dubsdot2
+files                   IN CNAME        tiamat
 print                   IN CNAME        dubsdot
 fsuvius                 IN CNAME        dubsdot
 fsu                     IN CNAME        dubsdot
 ip                      IN CNAME        dubsdot
-talks                   IN CNAME        dubsdot2
-book                    IN CNAME        dubsdot2
+talks                   IN CNAME        tiamat
+book                    IN CNAME        tiamat
 sklat                   IN CNAME        talks
 grm                     IN CNAME        dubsdot
 pluto                   IN CNAME        dubsdot
@@ -146,12 +144,11 @@ wishlist                IN CNAME        dubsdot
 dndarchive              IN CNAME        dubsdot
 dnd                     IN CNAME        dubsdot
 folding                 IN CNAME        dubsdot
-random			        IN CNAME    	dubsdot2
+random			        IN CNAME    	tiamat
 automatafl		        IN CNAME    	dubsdot
 broken			        IN CNAME	    dubsdot
 beep                    IN CNAME        ziltoid
 git                     IN CNAME        gitea
-drupal                  IN CNAME        dubsdot2
 condor                  IN CNAME        amethyst.woodstock.clarkson.edu.
 condor-team             IN CNAME        stew3254.github.io.
 www.condor-team         IN CNAME        stew3254.github.io.
