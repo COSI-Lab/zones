@@ -117,16 +117,15 @@ radius                  IN CNAME        talos
 files                   IN CNAME        tiamat
 talks                   IN CNAME        tiamat
 book                    IN CNAME        tiamat
-random			IN CNAME    	tiamat
-terminator		IN CNAME	tiamat
+random		            	IN CNAME    	  tiamat
+terminator		          IN CNAME	      tiamat
 
 comm			IN CNAME 	eldwyn
 muc.comm		IN CNAME	eldwyn
 pubsub.comm		IN CNAME	eldwyn
 proxy.comm		IN CNAME	eldwyn
 upload.comm		IN CNAME	eldwyn
-@                       IN CNAME        tiamat
-files                   IN CNAME        tiamat
+
 print                   IN CNAME        dubsdot
 fsuvius                 IN CNAME        dubsdot
 fsu                     IN CNAME        dubsdot
