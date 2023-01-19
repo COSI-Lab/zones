@@ -60,6 +60,7 @@ mirror                  IN A            128.153.145.19
 f1                      IN A            128.153.145.20
 f2                      IN A            128.153.145.21
 tiamat                  IN A            128.153.145.41
+@                       IN A            128.153.145.41 ; we can't have a CNAME here sadly
 hydra                   IN A            128.153.145.42
 grand-dad               IN A            128.153.145.43
 elephant                IN A            128.153.145.44
@@ -112,7 +113,7 @@ dns1                    IN CNAME        talos
 dns2                    IN CNAME        atlas
 lapras                  IN CNAME        talos
 radius                  IN CNAME        talos
-@                       IN CNAME        tiamat
+
 files                   IN CNAME        tiamat
 talks                   IN CNAME        tiamat
 book                    IN CNAME        tiamat
