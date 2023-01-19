@@ -1,6 +1,6 @@
 $TTL 1h
 @                       IN SOA  talos.cslabs.clarkson.edu. root.cslabs.clarkson.edu. (
-                                239     ; serial
+                                240     ; serial
                                 1d      ; refresh
                                 2h      ; retry
                                 1w      ; expire
@@ -79,7 +79,6 @@ undocs                  IN A            128.153.145.147
 docs                    IN A            128.153.145.148
 bouncer                 IN A            128.153.145.170
 dubsdot                 IN A            128.153.145.200
-@                       IN A            128.153.145.201
 fog                     IN A            128.153.145.204
 crow                    IN A            128.153.145.207
 esports                 IN A            128.153.145.220
@@ -118,6 +117,7 @@ muc.comm		IN CNAME	eldwyn
 pubsub.comm		IN CNAME	eldwyn
 proxy.comm		IN CNAME	eldwyn
 upload.comm		IN CNAME	eldwyn
+@                       IN CNAME        tiamat
 files                   IN CNAME        tiamat
 print                   IN CNAME        dubsdot
 fsuvius                 IN CNAME        dubsdot
