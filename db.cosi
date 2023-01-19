@@ -113,20 +113,25 @@ dns1                    IN CNAME        talos
 dns2                    IN CNAME        atlas
 lapras                  IN CNAME        talos
 radius                  IN CNAME        talos
+
+files                   IN CNAME        tiamat
+talks                   IN CNAME        tiamat
+book                    IN CNAME        tiamat
+random			IN CNAME    	tiamat
+terminator		IN CNAME	tiamat
+
 comm			IN CNAME 	eldwyn
 muc.comm		IN CNAME	eldwyn
 pubsub.comm		IN CNAME	eldwyn
 proxy.comm		IN CNAME	eldwyn
 upload.comm		IN CNAME	eldwyn
-files                   IN CNAME        tiamat
+
 print                   IN CNAME        dubsdot
 fsuvius                 IN CNAME        dubsdot
 fsu                     IN CNAME        dubsdot
 ip                      IN CNAME        dubsdot
-talks                   IN CNAME        tiamat
-book                    IN CNAME        tiamat
 oldtalks                IN CNAME        dubsdot
-sklat                   IN CNAME        dubsdot
+sklat                   IN CNAME        talks
 grm                     IN CNAME        dubsdot
 pluto                   IN CNAME        dubsdot
 cnrl                    IN CNAME        dubsdot
@@ -151,9 +156,8 @@ login                   IN CNAME        dubsdot
 dndarchive              IN CNAME        dubsdot
 dnd                     IN CNAME        dubsdot
 folding                 IN CNAME        dubsdot
-random			        IN CNAME    	tiamat
-automatafl		        IN CNAME    	dubsdot
-broken			        IN CNAME        dubsdot
+automatafl		IN CNAME    	dubsdot
+broken			IN CNAME        dubsdot
 meatpod                 IN CNAME        bacon
 metapod                 IN CNAME        bacon
 defcon                  IN CNAME        bacon
