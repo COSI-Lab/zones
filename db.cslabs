@@ -60,6 +60,7 @@ mirror                  IN A            128.153.145.19
 f1                      IN A            128.153.145.20
 f2                      IN A            128.153.145.21
 tiamat                  IN A            128.153.145.41
+@                       IN A            128.153.145.41 ; we can't have a CNAME here sadly
 hydra                   IN A            128.153.145.42
 grand-dad               IN A            128.153.145.43
 elephant                IN A            128.153.145.44
@@ -124,8 +125,7 @@ muc.comm		IN CNAME	eldwyn
 pubsub.comm		IN CNAME	eldwyn
 proxy.comm		IN CNAME	eldwyn
 upload.comm		IN CNAME	eldwyn
-@                       IN CNAME        tiamat
-files                   IN CNAME        tiamat
+
 print                   IN CNAME        dubsdot
 fsuvius                 IN CNAME        dubsdot
 fsu                     IN CNAME        dubsdot
