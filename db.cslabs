@@ -112,6 +112,13 @@ dns1                    IN CNAME        talos
 dns2                    IN CNAME        atlas
 lapras                  IN CNAME        talos
 radius                  IN CNAME        talos
+
+talks                   IN CNAME        tiamat
+book                    IN CNAME        tiamat
+random			IN CNAME    	tiamat
+files                   IN CNAME        tiamat
+terminator		IN CNAME	tiamat
+
 comm			IN CNAME 	eldwyn
 muc.comm		IN CNAME	eldwyn
 pubsub.comm		IN CNAME	eldwyn
@@ -123,8 +130,6 @@ print                   IN CNAME        dubsdot
 fsuvius                 IN CNAME        dubsdot
 fsu                     IN CNAME        dubsdot
 ip                      IN CNAME        dubsdot
-talks                   IN CNAME        tiamat
-book                    IN CNAME        tiamat
 sklat                   IN CNAME        talks
 grm                     IN CNAME        dubsdot
 pluto                   IN CNAME        dubsdot
@@ -144,9 +149,8 @@ wishlist                IN CNAME        dubsdot
 dndarchive              IN CNAME        dubsdot
 dnd                     IN CNAME        dubsdot
 folding                 IN CNAME        dubsdot
-random			        IN CNAME    	tiamat
-automatafl		        IN CNAME    	dubsdot
-broken			        IN CNAME	    dubsdot
+automatafl		IN CNAME    	dubsdot
+broken			IN CNAME	dubsdot
 beep                    IN CNAME        ziltoid
 git                     IN CNAME        gitea
 condor                  IN CNAME        amethyst.woodstock.clarkson.edu.
