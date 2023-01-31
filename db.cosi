@@ -1,6 +1,6 @@
 $TTL 1h
 @                       IN SOA  talos.cslabs.clarkson.edu. root.cslabs.clarkson.edu. (
-                                240     ; serial
+                                241     ; serial
                                 1d      ; refresh
                                 2h      ; retry
                                 1w      ; expire
@@ -117,8 +117,9 @@ radius                  IN CNAME        talos
 files                   IN CNAME        tiamat
 talks                   IN CNAME        tiamat
 book                    IN CNAME        tiamat
-random		            	IN CNAME    	  tiamat
-terminator		          IN CNAME	      tiamat
+random		            IN CNAME        tiamat
+terminator		        IN CNAME	    tiamat
+cs350-bgsnt             IN CNAME        tiamat
 
 comm			IN CNAME 	eldwyn
 muc.comm		IN CNAME	eldwyn
