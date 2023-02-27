@@ -1,6 +1,6 @@
 $TTL 1h
 @                       IN SOA  talos.cslabs.clarkson.edu. root.cslabs.clarkson.edu. (
-                                243       ; serial
+                                244       ; serial
                                 1d      ; refresh
                                 2h      ; retry
                                 1w      ; expire
@@ -49,3 +49,4 @@ $TTL 1h
 63                      IN PTR  itl-23.cslabs.clarkson.edu.
 64                      IN PTR  itl-24.cslabs.clarkson.edu.
 65                      IN PTR  itl-25.cslabs.clarkson.edu.
+123                     IN PTR  jesubelle.cslabs.clarkson.edu.
