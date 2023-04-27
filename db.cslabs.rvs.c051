@@ -1,6 +1,6 @@
 $TTL 1h
 @                       IN SOA  talos.cslabs.clarkson.edu. root.cslabs.clarkson.edu. (
-                                248     ; serial
+                                249     ; serial
                                 1d      ; refresh
                                 2h      ; retry
                                 1w      ; expire
