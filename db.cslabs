@@ -1,6 +1,6 @@
 $TTL 1h
 @                       IN SOA  talos.cslabs.clarkson.edu. root.cslabs.clarkson.edu. (
-                                250     ; serial
+                                251     ; serial
                                 1d      ; refresh
                                 2h      ; retry
                                 1w      ; expire
@@ -50,7 +50,6 @@ itl-23                  IN A            128.153.144.63
 itl-24                  IN A            128.153.144.64
 itl-25                  IN A            128.153.144.65
 jesubelle               IN A            128.153.144.123
-fsu                     IN A            128.153.144.207
 
 ; 145 subnet
 ziltoid                 IN A            128.153.145.2
@@ -84,6 +83,7 @@ bouncer                 IN A            128.153.145.170
 dubsdot                 IN A            128.153.145.200
 fog                     IN A            128.153.145.204
 crow                    IN A            128.153.145.207
+fsu                     IN A            128.153.145.219
 esports                 IN A            128.153.145.220
 gitea                   IN A            128.153.145.233
 nas3                    IN A            128.153.145.248
@@ -93,6 +93,7 @@ swm1                    IN A            128.153.145.251
 swm2                    IN A            128.153.145.252
 swm3                    IN A            128.153.145.253
 swm4                    IN A            128.153.145.254
+
 
 ; 146 subnet
 146dhcp                 IN A            128.153.146.3
