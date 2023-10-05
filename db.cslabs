@@ -1,6 +1,6 @@
 $TTL 1h
 @                       IN SOA  talos.cslabs.clarkson.edu. root.cslabs.clarkson.edu. (
-                                251     ; serial
+                                252     ; serial
                                 1d      ; refresh
                                 2h      ; retry
                                 1w      ; expire
@@ -8,7 +8,7 @@ $TTL 1h
 
 ; Namservers
 @                       IN NS           talos
-recursion		IN NS		bacon
+recursion		        IN NS		    bacon
 
 ; 144 subnet
 cthulu                  IN A            128.153.144.20
@@ -73,6 +73,7 @@ materiae                IN A            128.153.145.81
 samuraihawks            IN A            128.153.145.82
 devteam                 IN A            128.153.145.83
 bgsnt-vm                IN A            128.153.145.84
+erised                  IN A            128.153.145.91
 printer                 IN A            128.153.145.100
 info					IN A			128.153.145.101
 honors					IN A			128.153.145.111
@@ -122,14 +123,14 @@ random			        IN CNAME    	tiamat
 files                   IN CNAME        tiamat
 terminator		        IN CNAME	    tiamat
 cs350-bgsnt             IN CNAME        tiamat
-cs350-chsdn             IN CNAME	tiamat
-cs350-twomanyryans             IN CNAME	tiamat
+cs350-chsdn             IN CNAME	    tiamat
+cs350-twomanyryans      IN CNAME	    tiamat
 
-comm			IN CNAME 	eldwyn
-muc.comm		IN CNAME	eldwyn
-pubsub.comm		IN CNAME	eldwyn
-proxy.comm		IN CNAME	eldwyn
-upload.comm		IN CNAME	eldwyn
+comm			        IN CNAME 	    eldwyn
+muc.comm		        IN CNAME	    eldwyn
+pubsub.comm		        IN CNAME	    eldwyn
+proxy.comm		        IN CNAME	    eldwyn
+upload.comm		        IN CNAME	    eldwyn
 
 print                   IN CNAME        dubsdot
 fsuvius                 IN CNAME        fsu
@@ -153,8 +154,8 @@ wishlist                IN CNAME        dubsdot
 dndarchive              IN CNAME        dubsdot
 dnd                     IN CNAME        dubsdot
 folding                 IN CNAME        dubsdot
-automatafl		IN CNAME    	dubsdot
-broken			IN CNAME	dubsdot
+automatafl		        IN CNAME    	dubsdot
+broken			        IN CNAME	    dubsdot
 beep                    IN CNAME        ziltoid
 git                     IN CNAME        gitea
 condor                  IN CNAME        amethyst.woodstock.clarkson.edu.
