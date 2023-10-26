@@ -1,13 +1,13 @@
 $TTL 1h
-@                       IN SOA  talos.cslabs.clarkson.edu. root.cslabs.clarkson.edu. (
-                                252     ; serial
+@                       IN SOA  taldos.cslabs.clarkson.edu. root.cslabs.clarkson.edu. (
+                                253     ; serial
                                 1d      ; refresh
                                 2h      ; retry
                                 1w      ; expire
                                 1800 )  ; negative caching-ttl
 
 ; Namservers
-@                       IN NS           talos
+@                       IN NS           taldos
 recursion		        IN NS		    bacon
 
 ; 144 subnet
@@ -53,8 +53,8 @@ jesubelle               IN A            128.153.144.123
 
 ; 145 subnet
 ziltoid                 IN A            128.153.145.2
-talos                   IN A            128.153.145.3
-atlas                   IN A            128.153.145.4
+taldos                  IN A            128.153.145.3
+talos                   IN A            128.153.145.4
 bacon                   IN A            128.153.145.10
 mirror                  IN A            128.153.145.19
 f1                      IN A            128.153.145.20
@@ -101,8 +101,8 @@ hnd-dev                 IN A            128.153.146.25
 
 ; IPv6
 ziltoid                 IN AAAA         2605:6480:c051:0002::1
-talos                   IN AAAA         2605:6480:c051:0003::1
-atlas                   IN AAAA         2605:6480:c051:0004::1
+taldos                  IN AAAA         2605:6480:c051:0003::1
+talos                   IN AAAA         2605:6480:c051:0004::1
 bacon                   IN AAAA         2605:6480:c051:0005::1
 unbound                 IN AAAA         2605:6480:c051:0053::1
 mirror                  IN AAAA         2605:6480:c051:0100::1
@@ -111,8 +111,8 @@ c051                    IN AAAA         2605:6480:c051:c051:c051:c051:c051:c051
 norm                    IN AAAA         2605:6480:c051:0303::1
 
 ; CNAMEs
-dns1                    IN CNAME        talos
-dns2                    IN CNAME        atlas
+dns1                    IN CNAME        taldos
+dns2                    IN CNAME        talos
 lapras                  IN CNAME        talos
 radius                  IN CNAME        talos
 
@@ -181,7 +181,7 @@ test                    IN TXT          "HELLO WORLD"
 ; CAA
 @                       IN CAA          128 issue "letsencrypt.org"
 talos                   IN CAA          128 issue "talos.cslabs.clarkson.edu"
-atlas                   IN CAA          128 issue "letsencrypt.org"
+taldos                  IN CAA          128 issue "letsencrypt.org"
 mirror                  IN CAA          128 issue "letsencrypt.org"
 dubsdot                 IN CAA          128 issue "letsencrypt.org"
 library                 IN CAA          128 issue "letsencrypt.org"
