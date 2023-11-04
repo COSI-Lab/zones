@@ -1,6 +1,6 @@
 $TTL 1h
 @                       IN SOA  taldos.cslabs.clarkson.edu. root.cslabs.clarkson.edu. (
-                                253     ; serial
+                                254     ; serial
                                 1d      ; refresh
                                 2h      ; retry
                                 1w      ; expire
@@ -84,7 +84,6 @@ bouncer                 IN A            128.153.145.170
 dubsdot                 IN A            128.153.145.200
 fog                     IN A            128.153.145.204
 crow                    IN A            128.153.145.207
-fsu                     IN A            128.153.145.219
 esports                 IN A            128.153.145.220
 gitea                   IN A            128.153.145.233
 nas3                    IN A            128.153.145.248
@@ -121,6 +120,7 @@ talks                   IN CNAME        tiamat
 book                    IN CNAME        tiamat
 random		            IN CNAME        tiamat
 terminator		        IN CNAME	    tiamat
+fsu                     IN CNAME        tiamat
 cs350-bgsnt             IN CNAME        tiamat
 cs350-chsdn             IN CNAME	    tiamat
 cs350-twomanyryans      IN CNAME	    tiamat
