@@ -1,6 +1,6 @@
 $TTL 1h
 @                       IN SOA  taldos.cslabs.clarkson.edu. root.cslabs.clarkson.edu. (
-                                254     ; serial
+                                255     ; serial
                                 1d      ; refresh
                                 2h      ; retry
                                 1w      ; expire
@@ -10,7 +10,7 @@ $TTL 1h
 
 ; Reverse 128.153.145/24
 ; Note: the trailing dots are VERY IMPORTANT!
-2                       IN PTR  ziltoid.cslabs.clarkson.edu.
+2                       IN PTR  kasper.cslabs.clarkson.edu.
 3                       IN PTR  taldos.cslabs.clarkson.edu.
 4                       IN PTR  talos.cslabs.clarkson.edu.
 10                      IN PTR  bacon.cslabs.clarkson.edu.
