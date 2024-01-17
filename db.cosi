@@ -1,6 +1,6 @@
 $TTL 1h
 @                       IN SOA  taldos.cslabs.clarkson.edu. root.cslabs.clarkson.edu. (
-                                254     ; serial
+                                255     ; serial
                                 1d      ; refresh
                                 2h      ; retry
                                 1w      ; expire
@@ -52,7 +52,7 @@ itl-25                  IN A            128.153.144.65
 jesubelle               IN A            128.153.144.123
 
 ; 145 subnet
-ziltoid                 IN A            128.153.145.2
+kasper                 IN A             128.153.145.2
 taldos                  IN A            128.153.145.3
 talos                   IN A            128.153.145.4
 bacon                   IN A            128.153.145.10
@@ -99,7 +99,7 @@ swm4                    IN A            128.153.145.254
 hnd-dev                 IN A            128.153.146.25
 
 ; IPv6
-ziltoid                 IN AAAA         2605:6480:c051:0002::1
+kasper                 IN AAAA          2605:6480:c051:0002::1
 taldos                  IN AAAA         2605:6480:c051:0003::1
 talos                   IN AAAA         2605:6480:c051:0004::1
 bacon                   IN AAAA         2605:6480:c051:0005::1
@@ -166,7 +166,6 @@ meatpod                 IN CNAME        bacon
 metapod                 IN CNAME        bacon
 defcon                  IN CNAME        bacon
 xen                     IN CNAME        bacon
-beep                    IN CNAME        ziltoid
 discord                 IN CNAME        crow
 git                     IN CNAME        gitea
 final-samuraihawks      IN CNAME        samuraihawks
