@@ -166,7 +166,6 @@ meatpod                 IN CNAME        bacon
 metapod                 IN CNAME        bacon
 defcon                  IN CNAME        bacon
 xen                     IN CNAME        bacon
-beep                    IN CNAME        kasper
 discord                 IN CNAME        crow
 git                     IN CNAME        gitea
 final-samuraihawks      IN CNAME        samuraihawks

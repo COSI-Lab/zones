@@ -156,7 +156,6 @@ dnd                     IN CNAME        dubsdot
 folding                 IN CNAME        dubsdot
 automatafl		        IN CNAME    	dubsdot
 broken			        IN CNAME	    dubsdot
-beep                    IN CNAME        kasper
 git                     IN CNAME        gitea
 condor                  IN CNAME        amethyst.woodstock.clarkson.edu.
 condor-team             IN CNAME        stew3254.github.io.
