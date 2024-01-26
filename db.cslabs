@@ -1,6 +1,6 @@
 $TTL 1h
 @                       IN SOA  taldos.cslabs.clarkson.edu. root.cslabs.clarkson.edu. (
-                                255     ; serial
+                                256     ; serial
                                 1d      ; refresh
                                 2h      ; retry
                                 1w      ; expire
@@ -122,6 +122,7 @@ random			        IN CNAME    	tiamat
 files                   IN CNAME        tiamat
 terminator		        IN CNAME	    tiamat
 fsu                     IN CNAME        tiamat
+slides                  IN CNAME        tiamat
 cs350-bgsnt             IN CNAME        tiamat
 cs350-chsdn             IN CNAME	    tiamat
 cs350-twomanyryans      IN CNAME	    tiamat
