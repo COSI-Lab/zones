@@ -7,6 +7,7 @@ This is the repository where we track our DNS zone files
 The way that you update a configuration is as follows:
 
 1. Clone down the repository locally to your computer
+2. Create a new branch 
 2. Add the changes you want (remember to add reverse DNS entries if you are adding A or AAAA records)
 3. Run `./update_serial.py` which auto increments serials for all zone files
 4. Run `./check_zones.py` to check your work
