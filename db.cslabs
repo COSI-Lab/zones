@@ -1,6 +1,6 @@
 $TTL 1h
 @                       IN SOA  taldos.cslabs.clarkson.edu. root.cslabs.clarkson.edu. (
-                                256     ; serial
+                                258     ; serial
                                 1d      ; refresh
                                 2h      ; retry
                                 1w      ; expire
@@ -126,6 +126,7 @@ slides                  IN CNAME        tiamat
 cs350-bgsnt             IN CNAME        tiamat
 cs350-chsdn             IN CNAME	    tiamat
 cs350-twomanyryans      IN CNAME	    tiamat
+carlone-capstone      IN CNAME	    tiamat
 
 comm			        IN CNAME 	    eldwyn
 muc.comm		        IN CNAME	    eldwyn
