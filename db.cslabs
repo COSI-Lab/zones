@@ -1,6 +1,6 @@
 $TTL 1h
 @                       IN SOA  taldos.cslabs.clarkson.edu. root.cslabs.clarkson.edu. (
-                                259     ; serial
+                                260     ; serial
                                 1d      ; refresh
                                 2h      ; retry
                                 1w      ; expire
@@ -127,6 +127,7 @@ print                   IN CNAME        tiamat
 fsuvius                 IN CNAME        fsu
 sklat                   IN CNAME        talks
 git                     IN CNAME        gitea
+node_modules            IN CNAME        elephant
 
 ; SRV records
 _ldap._tcp              IN SRV          5 10 636 talos
