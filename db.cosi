@@ -1,12 +1,12 @@
 $TTL 1h
 @                       IN SOA  taldos.cslabs.clarkson.edu. root.cslabs.clarkson.edu. (
-                                259     ; serial
+                                261     ; serial
                                 1d      ; refresh
                                 2h      ; retry
                                 1w      ; expire
                                 1800 )  ; negative caching-ttl
 
-; Namservers
+; Nameservers
 @                       IN NS           taldos
 recursion		        IN NS		    bacon
 
@@ -52,41 +52,33 @@ itl-25                  IN A            128.153.144.65
 jesubelle               IN A            128.153.144.123
 
 ; 145 subnet
-kasper                 IN A             128.153.145.2
+kasper                  IN A            128.153.145.2
 taldos                  IN A            128.153.145.3
 talos                   IN A            128.153.145.4
 ziltoid                   IN A            128.153.145.5
 bacon                   IN A            128.153.145.10
 mirror                  IN A            128.153.145.19
-f1                      IN A            128.153.145.20
-f2                      IN A            128.153.145.21
+fcolo                   IN A            128.153.145.20
+fhill                   IN A            128.153.145.21
 tiamat                  IN A            128.153.145.41
 @                       IN A            128.153.145.41 ; we can't have a CNAME here sadly
 hydra                   IN A            128.153.145.42
-grand-dad               IN A            128.153.145.43
-elephant                IN A            128.153.145.44
+janet                   IN A            128.153.145.43
 eldwyn			        IN A 		    128.153.145.45
 monika                  IN A            128.153.145.51
 unbound                 IN A            128.153.145.53
 ender                   IN A            128.153.145.54
 voip                    IN A            128.153.145.80
 materiae                IN A            128.153.145.81
-samuraihawks            IN A            128.153.145.82
-devteam                 IN A            128.153.145.83
-bgsnt-vm                IN A            128.153.145.84
+elephant                IN A            128.153.145.90
 erised                  IN A            128.153.145.91
 printer                 IN A            128.153.145.100
 info					IN A			128.153.145.101
 honors					IN A			128.153.145.111
 norm                    IN A            128.153.145.121
-undocs                  IN A            128.153.145.147
-docs                    IN A            128.153.145.148
-bouncer                 IN A            128.153.145.170
 dubsdot                 IN A            128.153.145.200
 fog                     IN A            128.153.145.204
-crow                    IN A            128.153.145.207
 esports                 IN A            128.153.145.220
-gitea                   IN A            128.153.145.233
 nas3                    IN A            128.153.145.248
 red-dwarf		        IN A		    128.153.145.249
 prometheus		        IN A		    128.153.145.250
@@ -100,7 +92,7 @@ swm4                    IN A            128.153.145.254
 hnd-dev                 IN A            128.153.146.25
 
 ; IPv6
-kasper                 IN AAAA          2605:6480:c051:0002::1
+kasper                  IN AAAA         2605:6480:c051:0002::1
 taldos                  IN AAAA         2605:6480:c051:0003::1
 talos                   IN AAAA         2605:6480:c051:0004::1
 bacon                   IN AAAA         2605:6480:c051:0005::1
@@ -112,9 +104,7 @@ norm                    IN AAAA         2605:6480:c051:0303::1
 
 ; CNAMEs
 dns1                    IN CNAME        taldos
-dns2                    IN CNAME        talos
-lapras                  IN CNAME        talos
-radius                  IN CNAME        talos
+dns2                    IN CNAME        taldos
 
 files                   IN CNAME        tiamat
 talks                   IN CNAME        tiamat
@@ -123,10 +113,9 @@ random		            IN CNAME        tiamat
 terminator		        IN CNAME	    tiamat
 fsu                     IN CNAME        tiamat
 slides                  IN CNAME        tiamat
-cs350-bgsnt             IN CNAME        tiamat
-cs350-chsdn             IN CNAME	    tiamat
-cs350-twomanyryans      IN CNAME	    tiamat
-carlone-capstone      IN CNAME	    tiamat
+carlone-capstone        IN CNAME        tiamat
+staging1                IN CNAME        tiamat
+staging2                IN CNAME        tiamat
 
 comm			        IN CNAME 	    eldwyn
 muc.comm		        IN CNAME	    eldwyn
@@ -134,45 +123,11 @@ pubsub.comm		        IN CNAME	    eldwyn
 proxy.comm		        IN CNAME	    eldwyn
 upload.comm		        IN CNAME	    eldwyn
 
-print                   IN CNAME        dubsdot
+print                   IN CNAME        tiamat
 fsuvius                 IN CNAME        fsu
-ip                      IN CNAME        dubsdot
-oldtalks                IN CNAME        dubsdot
 sklat                   IN CNAME        talks
-grm                     IN CNAME        dubsdot
-pluto                   IN CNAME        dubsdot
-cnrl                    IN CNAME        dubsdot
-derpysayings            IN CNAME        dubsdot
-probablyverifier        IN CNAME        dubsdot
-history                 IN CNAME        dubsdot
-place                   IN CNAME        dubsdot
-mirrorstat              IN CNAME        dubsdot
-scan                    IN CNAME        dubsdot
-life                    IN CNAME        dubsdot
-poem                    IN CNAME        dubsdot
-talk                    IN CNAME        dubsdot
-waste                   IN CNAME        dubsdot
-starwars                IN CNAME        dubsdot
-clarkson                IN CNAME        dubsdot
-scheduler               IN CNAME        dubsdot
-dev                     IN CNAME        dubsdot
-tsdata                  IN CNAME        dubsdot
-browniepoints           IN CNAME        dubsdot
-wishlist                IN CNAME        dubsdot
-login                   IN CNAME        dubsdot
-dndarchive              IN CNAME        dubsdot
-dnd                     IN CNAME        dubsdot
-folding                 IN CNAME        dubsdot
-automatafl		        IN CNAME    	dubsdot
-broken			        IN CNAME        dubsdot
-meatpod                 IN CNAME        bacon
-metapod                 IN CNAME        bacon
-defcon                  IN CNAME        bacon
-xen                     IN CNAME        bacon
-discord                 IN CNAME        crow
 git                     IN CNAME        gitea
-final-samuraihawks      IN CNAME        samuraihawks
-auth                    IN CNAME        talos
+node_modules            IN CNAME        elephant
 
 ; SRV records
 

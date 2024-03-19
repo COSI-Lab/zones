@@ -1,6 +1,6 @@
 $TTL 1h
 @                       IN SOA  taldos.cslabs.clarkson.edu. root.cslabs.clarkson.edu. (
-                                259     ; serial
+                                261     ; serial
                                 1d      ; refresh
                                 2h      ; retry
                                 1w      ; expire
@@ -15,32 +15,24 @@ $TTL 1h
 4                       IN PTR  talos.cslabs.clarkson.edu.
 10                      IN PTR  bacon.cslabs.clarkson.edu.
 19                      IN PTR  mirror.cslabs.clarkson.edu.
-20                      IN PTR  f1.cslabs.clarkson.edu.
-21                      IN PTR  f2.cslabs.clarkson.edu.
+20                      IN PTR  fhill.cslabs.clarkson.edu.
+21                      IN PTR  fcolo.cslabs.clarkson.edu.
 41                      IN PTR  tiamat.cslabs.clarkson.edu.
 42                      IN PTR  hydra.cslabs.clarkson.edu.
-43                      IN PTR  grand-dad.cslabs.clarkson.edu.
-44                      IN PTR  elephant.cslabs.clarkson.edu.
+43                      IN PTR  janet.cslabs.clarkson.edu.
 45			            IN PTR  eldwyn.cslabs.clarkson.edu.
 51                      IN PTR  monika.cslabs.clarkson.edu.
 53                      IN PTR  unbound.cslabs.clarkson.edu.
 54                      IN PTR  ender.cslabs.clarkson.edu.
 80                      IN PTR  voip.cslabs.clarkson.edu.
 81                      IN PTR  materiae.cslabs.clarkson.edu.
-82                      IN PTR  samuraihawks.cslabs.clarkson.edu.
-83                      IN PTR  devteam.cslabs.clarkson.edu.
-84                      IN PTR  bgsnt-vm.cslabs.clarkson.edu.
+90                      IN PTR  elephant.cslabs.clarkson.edu.
 91                      IN PTR  erised.cslabs.clarkson.edu.
 100                     IN PTR  printer.cslabs.clarkson.edu.
 101                     IN PTR	info.cslabs.clarkson.edu
 121                     IN PTR  norm.cslabs.clarkson.edu.
-147                     IN PTR  undocs.cslabs.clarkson.edu.
-148                     IN PTR  docs.cslabs.clarkson.edu.
-170                     IN PTR  bouncer.cslabs.clarkson.edu.
 200                     IN PTR  dubsdot.cslabs.clarkson.edu.
-207                     IN PTR  crow.cslabs.clarkson.edu.
 220                     IN PTR  esports.cslabs.clarkson.edu.
-233                     IN PTR  gitea.cslabs.clarkson.edu.
 248                     IN PTR  nas3.cslabs.clarkson.edu.
 249	                    IN PTR	red-dwarf.cslabs.clarkson.edu.
 250	                    IN PTR	prometheus.cslabs.clarkson.edu.
