@@ -1,6 +1,6 @@
 $TTL 1h
 @                       IN SOA  taldos.cslabs.clarkson.edu. root.cslabs.clarkson.edu. (
-                                260     ; serial
+                                261     ; serial
                                 1d      ; refresh
                                 2h      ; retry
                                 1w      ; expire
@@ -55,6 +55,7 @@ jesubelle               IN A            128.153.144.123
 kasper                  IN A            128.153.145.2
 taldos                  IN A            128.153.145.3
 talos                   IN A            128.153.145.4
+ziltoid                   IN A            128.153.145.5
 bacon                   IN A            128.153.145.10
 mirror                  IN A            128.153.145.19
 fcolo                   IN A            128.153.145.20
