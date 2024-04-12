@@ -1,6 +1,6 @@
 $TTL 1h
 @                       IN SOA  taldos.cslabs.clarkson.edu. root.cslabs.clarkson.edu. (
-                                261     ; serial
+                                262     ; serial
                                 1d      ; refresh
                                 2h      ; retry
                                 1w      ; expire
@@ -52,14 +52,16 @@ itl-25                  IN A            128.153.144.65
 jesubelle               IN A            128.153.144.123
 
 ; 145 subnet
-kasper                 IN A             128.153.145.2
+kasper                  IN A            128.153.145.2
 taldos                  IN A            128.153.145.3
 talos                   IN A            128.153.145.4
-ziltoid                   IN A            128.153.145.5
+ziltoid                 IN A            128.153.145.5
 bacon                   IN A            128.153.145.10
 mirror                  IN A            128.153.145.19
 fcolo                   IN A            128.153.145.20
 fhill                   IN A            128.153.145.21
+wallace                 IN A            128.153.145.38
+gromit                  IN A            128.153.145.39
 tiamat                  IN A            128.153.145.41
 @                       IN A            128.153.145.41 ; we can't have a CNAME here sadly
 hydra                   IN A            128.153.145.42
