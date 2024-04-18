@@ -1,12 +1,12 @@
 $TTL 1h
-@                       IN SOA  taldos.cslabs.clarkson.edu. root.cslabs.clarkson.edu. (
-                                262     ; serial
+@                       IN SOA  taltres.cslabs.clarkson.edu. root.cslabs.clarkson.edu. (
+                                263     ; serial
                                 1d      ; refresh
                                 2h      ; retry
                                 1w      ; expire
                                 1800 )  ; negative caching-ttl
 ; Nameservers
-@                       IN NS   taldos.cslabs.clarkson.edu.
+@                       IN NS   taltres.cslabs.clarkson.edu.
 
 ; Reverse 2605:6480:c051::/48
 
@@ -15,7 +15,7 @@ $TTL 1h
 
 ; Essential Services
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.2.0.0.0 PTR kasper.cslabs.clarkson.edu.
-1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.3.0.0.0 PTR taldos.cslabs.clarkson.edu.
+1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.3.0.0.0 PTR taltres.cslabs.clarkson.edu.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.4.0.0.0 PTR talos.cslabs.clarkson.edu.
 1.0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.5.0.0.0 PTR bacon.cslabs.clarkson.edu.
 

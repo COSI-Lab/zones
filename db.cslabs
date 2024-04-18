@@ -1,13 +1,13 @@
 $TTL 1h
-@                       IN SOA  taldos.cslabs.clarkson.edu. root.cslabs.clarkson.edu. (
-                                262     ; serial
+@                       IN SOA  taltres.cslabs.clarkson.edu. root.cslabs.clarkson.edu. (
+                                263     ; serial
                                 1d      ; refresh
                                 2h      ; retry
                                 1w      ; expire
                                 1800 )  ; negative caching-ttl
 
 ; Nameservers
-@                       IN NS           taldos
+@                       IN NS           taltres
 recursion		        IN NS		    bacon
 
 ; 144 subnet
@@ -53,7 +53,7 @@ jesubelle               IN A            128.153.144.123
 
 ; 145 subnet
 kasper                  IN A            128.153.145.2
-taldos                  IN A            128.153.145.3
+taltres                 IN A            128.153.145.3
 talos                   IN A            128.153.145.4
 ziltoid                 IN A            128.153.145.5
 bacon                   IN A            128.153.145.10
@@ -96,7 +96,7 @@ hnd-dev                 IN A            128.153.146.25
 
 ; IPv6
 kasper                  IN AAAA         2605:6480:c051:0002::1
-taldos                  IN AAAA         2605:6480:c051:0003::1
+taltres                 IN AAAA         2605:6480:c051:0003::1
 talos                   IN AAAA         2605:6480:c051:0004::1
 bacon                   IN AAAA         2605:6480:c051:0005::1
 unbound                 IN AAAA         2605:6480:c051:0053::1
@@ -106,8 +106,8 @@ voip6                   IN AAAA         2605:6480:c051:0101::1
 norm                    IN AAAA         2605:6480:c051:0303::1
 
 ; CNAMEs
-dns1                    IN CNAME        taldos
-dns2                    IN CNAME        taldos
+dns1                    IN CNAME        taltres
+dns2                    IN CNAME        taltres
 
 talks                   IN CNAME        tiamat
 book                    IN CNAME        tiamat
@@ -149,7 +149,7 @@ test                    IN TXT          "HELLO WORLD"
 ; CAA
 @                       IN CAA          128 issue "letsencrypt.org"
 talos                   IN CAA          128 issue "talos.cslabs.clarkson.edu"
-taldos                  IN CAA          128 issue "letsencrypt.org"
+taltres                 IN CAA          128 issue "letsencrypt.org"
 mirror                  IN CAA          128 issue "letsencrypt.org"
 dubsdot                 IN CAA          128 issue "letsencrypt.org"
 library                 IN CAA          128 issue "letsencrypt.org"
