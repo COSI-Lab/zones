@@ -1,6 +1,6 @@
 $TTL 1h
 @                       IN SOA  taltres.cslabs.clarkson.edu. root.cslabs.clarkson.edu. (
-                                263     ; serial
+                                264     ; serial
                                 1d      ; refresh
                                 2h      ; retry
                                 1w      ; expire
@@ -68,6 +68,7 @@ hydra                   IN A            128.153.145.42
 janet                   IN A            128.153.145.43
 eldwyn			        IN A		    128.153.145.45
 monika                  IN A            128.153.145.51
+caterpillar             IN A            128.153.145.52
 unbound                 IN A            128.153.145.53
 ender                   IN A            128.153.145.54
 voip                    IN A            128.153.145.80
@@ -131,6 +132,7 @@ fsuvius                 IN CNAME        fsu
 sklat                   IN CNAME        talks
 git                     IN CNAME        gitea
 node_modules            IN CNAME        elephant
+jump                    IN CNAME        caterpillar
 
 ; SRV records
 _ldap._tcp              IN SRV          5 10 636 talos
