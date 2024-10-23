@@ -1,6 +1,6 @@
 $TTL 1h
 @                       IN SOA  taltres.cslabs.clarkson.edu. root.cslabs.clarkson.edu. (
-                                264     ; serial
+                                265     ; serial
                                 1d      ; refresh
                                 2h      ; retry
                                 1w      ; expire
@@ -50,6 +50,7 @@ itl-23                  IN A            128.153.144.63
 itl-24                  IN A            128.153.144.64
 itl-25                  IN A            128.153.144.65
 jesubelle               IN A            128.153.144.123
+vpn                     IN A            128.153.144.254
 
 ; 145 subnet
 kasper                  IN A            128.153.145.2
