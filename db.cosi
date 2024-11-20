@@ -1,6 +1,6 @@
 $TTL 1h
 @                       IN SOA  taltres.cslabs.clarkson.edu. root.cslabs.clarkson.edu. (
-                                265     ; serial
+                                266     ; serial
                                 1d      ; refresh
                                 2h      ; retry
                                 1w      ; expire
@@ -68,6 +68,7 @@ tiamat                  IN A            128.153.145.41
 hydra                   IN A            128.153.145.42
 janet                   IN A            128.153.145.43
 eldwyn			        IN A 		    128.153.145.45
+beaker                  IN A            128.153.145.46
 monika                  IN A            128.153.145.51
 caterpillar             IN A            128.153.145.52
 unbound                 IN A            128.153.145.53
