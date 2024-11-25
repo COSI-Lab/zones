@@ -73,6 +73,7 @@ monika                  IN A            128.153.145.51
 caterpillar             IN A            128.153.145.52
 unbound                 IN A            128.153.145.53
 ender                   IN A            128.153.145.54
+koma                    IN A            128.153.145.55
 voip                    IN A            128.153.145.80
 materiae                IN A            128.153.145.81
 elephant                IN A            128.153.145.90

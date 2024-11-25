@@ -29,6 +29,7 @@ $TTL 1h
 52                      IN PTR  caterpillar.cslabs.clarkson.edu.
 53                      IN PTR  unbound.cslabs.clarkson.edu.
 54                      IN PTR  ender.cslabs.clarkson.edu.
+55                      IN PTR  koma.cslabs.clarkson.edu.
 80                      IN PTR  voip.cslabs.clarkson.edu.
 81                      IN PTR  materiae.cslabs.clarkson.edu.
 90                      IN PTR  elephant.cslabs.clarkson.edu.
