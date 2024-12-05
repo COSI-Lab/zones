@@ -1,6 +1,6 @@
 $TTL 1h
 @                       IN SOA  taltres.cslabs.clarkson.edu. root.cslabs.clarkson.edu. (
-                                266     ; serial
+                                267     ; serial
                                 1d      ; refresh
                                 2h      ; retry
                                 1w      ; expire
@@ -29,15 +29,18 @@ $TTL 1h
 52                      IN PTR  caterpillar.cslabs.clarkson.edu.
 53                      IN PTR  unbound.cslabs.clarkson.edu.
 54                      IN PTR  ender.cslabs.clarkson.edu.
+55                      IN PTR  koma.cslabs.clarkson.edu.
 80                      IN PTR  voip.cslabs.clarkson.edu.
 81                      IN PTR  materiae.cslabs.clarkson.edu.
 90                      IN PTR  elephant.cslabs.clarkson.edu.
 91                      IN PTR  erised.cslabs.clarkson.edu.
 100                     IN PTR  printer.cslabs.clarkson.edu.
-101                     IN PTR	info.cslabs.clarkson.edu
+101                     IN PTR	info.cslabs.clarkson.edu.
 121                     IN PTR  norm.cslabs.clarkson.edu.
 200                     IN PTR  dubsdot.cslabs.clarkson.edu.
-220                     IN PTR  esports.cslabs.clarkson.edu.
+218                     IN PTR  esports3.cslabs.clarkson.edu.
+219                     IN PTR  esports2.cslabs.clarkson.edu.
+220                     IN PTR  esports1.cslabs.clarkson.edu.
 248                     IN PTR  nas3.cslabs.clarkson.edu.
 249	                    IN PTR	red-dwarf.cslabs.clarkson.edu.
 250	                    IN PTR	prometheus.cslabs.clarkson.edu.

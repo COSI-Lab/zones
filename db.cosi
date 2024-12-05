@@ -1,6 +1,6 @@
 $TTL 1h
 @                       IN SOA  taltres.cslabs.clarkson.edu. root.cslabs.clarkson.edu. (
-                                266     ; serial
+                                267     ; serial
                                 1d      ; refresh
                                 2h      ; retry
                                 1w      ; expire
@@ -73,6 +73,7 @@ monika                  IN A            128.153.145.51
 caterpillar             IN A            128.153.145.52
 unbound                 IN A            128.153.145.53
 ender                   IN A            128.153.145.54
+koma                    IN A            128.153.145.55
 voip                    IN A            128.153.145.80
 materiae                IN A            128.153.145.81
 elephant                IN A            128.153.145.90
@@ -83,7 +84,9 @@ honors					IN A			128.153.145.111
 norm                    IN A            128.153.145.121
 dubsdot                 IN A            128.153.145.200
 fog                     IN A            128.153.145.204
-esports                 IN A            128.153.145.220
+esports3                IN A            128.153.145.218
+esports2                IN A            128.153.145.219
+esports1                IN A            128.153.145.220
 nas3                    IN A            128.153.145.248
 red-dwarf		        IN A		    128.153.145.249
 prometheus		        IN A		    128.153.145.250
