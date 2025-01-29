@@ -1,6 +1,6 @@
 $TTL 1h
 @                       IN SOA  taltres.cslabs.clarkson.edu. root.cslabs.clarkson.edu. (
-                                267     ; serial
+                                268     ; serial
                                 1d      ; refresh
                                 2h      ; retry
                                 1w      ; expire
@@ -84,6 +84,7 @@ honors					IN A			128.153.145.111
 norm                    IN A            128.153.145.121
 dubsdot                 IN A            128.153.145.200
 fog                     IN A            128.153.145.204
+cs460                   IN A            128.153.145.217
 esports3                IN A            128.153.145.218
 esports2                IN A            128.153.145.219
 esports1                IN A            128.153.145.220
