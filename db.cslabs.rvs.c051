@@ -1,12 +1,12 @@
 $TTL 1h
 @                       IN SOA  taltres.cslabs.clarkson.edu. root.cslabs.clarkson.edu. (
-                                269     ; serial
+                                270     ; serial
                                 1d      ; refresh
                                 2h      ; retry
                                 1w      ; expire
                                 1800 )  ; negative caching-ttl
 ; Nameservers
-@                       IN NS   taltres.cslabs.clarkson.edu.
+@					IN NS   taltres.cslabs.clarkson.edu.
 
 ; Reverse 2605:6480:c051::/48
 

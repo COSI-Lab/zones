@@ -1,6 +1,6 @@
 $TTL 1h
 @                       IN SOA  taltres.cslabs.clarkson.edu. root.cslabs.clarkson.edu. (
-                                269     ; serial
+                                270     ; serial
                                 1d      ; refresh
                                 2h      ; retry
                                 1w      ; expire
@@ -8,7 +8,7 @@ $TTL 1h
 
 ; Nameservers
 @                       IN NS           taltres
-recursion		        IN NS		    bacon
+recursion		IN NS		bacon
 
 ; 144 subnet
 cthulu                  IN A            128.153.144.20
@@ -67,7 +67,7 @@ tiamat                  IN A            128.153.145.41
 @                       IN A            128.153.145.41 ; we can't have a CNAME here sadly
 hydra                   IN A            128.153.145.42
 janet                   IN A            128.153.145.43
-eldwyn			        IN A 		    128.153.145.45
+eldwyn			IN A		128.153.145.45
 beaker                  IN A            128.153.145.46
 monika                  IN A            128.153.145.51
 caterpillar             IN A            128.153.145.52
@@ -76,11 +76,10 @@ ender                   IN A            128.153.145.54
 koma                    IN A            128.153.145.55
 voip                    IN A            128.153.145.80
 materiae                IN A            128.153.145.81
-elephant                IN A            128.153.145.90
-erised                  IN A            128.153.145.91
+elephant                IN A            128.153.145.91
 printer                 IN A            128.153.145.100
-info					IN A			128.153.145.101
-honors					IN A			128.153.145.111
+info			IN A		128.153.145.101
+honors			IN A		128.153.145.111
 norm                    IN A            128.153.145.121
 dubsdot                 IN A            128.153.145.200
 fog                     IN A            128.153.145.204
@@ -89,8 +88,8 @@ esports3                IN A            128.153.145.218
 esports2                IN A            128.153.145.219
 esports1                IN A            128.153.145.220
 nas3                    IN A            128.153.145.248
-red-dwarf		        IN A		    128.153.145.249
-prometheus		        IN A		    128.153.145.250
+red-dwarf		IN A		128.153.145.249
+prometheus		IN A		128.153.145.250
 swm1                    IN A            128.153.145.251
 swm2                    IN A            128.153.145.252
 swm3                    IN A            128.153.145.253
@@ -119,19 +118,19 @@ files                   IN CNAME        tiamat
 talks                   IN CNAME        tiamat
 book                    IN CNAME        tiamat
 docs                    IN CNAME        tiamat
-random		            IN CNAME        tiamat
-terminator		        IN CNAME	    tiamat
+random		        IN CNAME        tiamat
+terminator		IN CNAME	tiamat
 fsu                     IN CNAME        tiamat
 slides                  IN CNAME        tiamat
 carlone-capstone        IN CNAME        tiamat
 staging1                IN CNAME        tiamat
 staging2                IN CNAME        tiamat
 
-comm			        IN CNAME 	    eldwyn
-muc.comm		        IN CNAME	    eldwyn
-pubsub.comm		        IN CNAME	    eldwyn
-proxy.comm		        IN CNAME	    eldwyn
-upload.comm		        IN CNAME	    eldwyn
+comm			IN CNAME	eldwyn
+muc.comm		IN CNAME	eldwyn
+pubsub.comm		IN CNAME	eldwyn
+proxy.comm		IN CNAME	eldwyn
+upload.comm		IN CNAME	eldwyn
 
 print                   IN CNAME        tiamat
 fsuvius                 IN CNAME        fsu
@@ -154,3 +153,4 @@ mirror                  IN CAA          128 issue "letsencrypt.org"
 dubsdot                 IN CAA          128 issue "letsencrypt.org"
 library                 IN CAA          128 issue "letsencrypt.org"
 gitea                   IN CAA          128 issue "letsencrypt.org"
+elephant		IN CAA		128 issue "letsencrypt.org"
