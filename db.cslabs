@@ -1,6 +1,6 @@
 $TTL 1h
 @                       IN SOA  taltres.cslabs.clarkson.edu. root.cslabs.clarkson.edu. (
-                                272     ; serial
+                                273     ; serial
                                 1d      ; refresh
                                 2h      ; retry
                                 1w      ; expire
@@ -139,6 +139,7 @@ print                   IN CNAME        tiamat
 fsuvius                 IN CNAME        fsu
 sklat                   IN CNAME        talks
 git                     IN CNAME        gitea
+wikimedia.elephant      IN CNAME        elephant
 node_modules            IN CNAME        elephant
 jump                    IN CNAME        caterpillar
 
