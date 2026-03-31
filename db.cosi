@@ -1,6 +1,6 @@
 $TTL 1h
 @                       IN SOA  taltres.cslabs.clarkson.edu. root.cslabs.clarkson.edu. (
-                                274     ; serial
+                                275     ; serial
                                 1d      ; refresh
                                 2h      ; retry
                                 1w      ; expire
@@ -75,6 +75,7 @@ unbound                 IN A            128.153.145.53
 ender                   IN A            128.153.145.54
 koma                    IN A            128.153.145.55
 jenkins                 IN A            128.153.145.67
+git                     IN a            128.153.145.68
 voip                    IN A            128.153.145.80
 materiae                IN A            128.153.145.81
 elephant                IN A            128.153.145.91
@@ -137,7 +138,6 @@ upload.comm		IN CNAME	eldwyn
 print                   IN CNAME        tiamat
 fsuvius                 IN CNAME        fsu
 sklat                   IN CNAME        talks
-git                     IN CNAME        gitea
 wikimedia.elephant      IN CNAME        elephant
 node_modules            IN CNAME        elephant
 jump                    IN CNAME        caterpillar
@@ -155,5 +155,5 @@ taltres                 IN CAA          128 issue "letsencrypt.org"
 mirror                  IN CAA          128 issue "letsencrypt.org"
 dubsdot                 IN CAA          128 issue "letsencrypt.org"
 library                 IN CAA          128 issue "letsencrypt.org"
-gitea                   IN CAA          128 issue "letsencrypt.org"
+git                     IN CAA          128 issue "letsencrypt.org"
 elephant		IN CAA		128 issue "letsencrypt.org"
