@@ -1,6 +1,6 @@
 $TTL 1h
 @                       IN SOA  taltres.cslabs.clarkson.edu. root.cslabs.clarkson.edu. (
-                                277     ; serial
+                                278     ; serial
                                 1d      ; refresh
                                 2h      ; retry
                                 1w      ; expire
@@ -83,6 +83,7 @@ printer                 IN A            128.153.145.100
 info			IN A		128.153.145.101
 honors			IN A		128.153.145.111
 norm                    IN A            128.153.145.121
+emr-pa                  IN A            128.153.145.171
 dubsdot                 IN A            128.153.145.200
 fog                     IN A            128.153.145.204
 cs460                   IN A            128.153.145.217
