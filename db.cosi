@@ -1,6 +1,6 @@
 $TTL 1h
 @                       IN SOA  taltres.cslabs.clarkson.edu. root.cslabs.clarkson.edu. (
-                                278     ; serial
+                                279     ; serial
                                 1d      ; refresh
                                 2h      ; retry
                                 1w      ; expire
@@ -75,7 +75,7 @@ unbound                 IN A            128.153.145.53
 ender                   IN A            128.153.145.54
 koma                    IN A            128.153.145.55
 jenkins                 IN A            128.153.145.67
-git                     IN a            128.153.145.68
+git                     IN a            128.153.145.69
 tex                     IN A            128.153.145.80
 materiae                IN A            128.153.145.81
 elephant                IN A            128.153.145.91

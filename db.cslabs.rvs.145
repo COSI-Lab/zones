@@ -1,6 +1,6 @@
 $TTL 1h
 @                       IN SOA  taltres.cslabs.clarkson.edu. root.cslabs.clarkson.edu. (
-                                278     ; serial
+                                279     ; serial
                                 1d      ; refresh
                                 2h      ; retry
                                 1w      ; expire
@@ -31,7 +31,7 @@ $TTL 1h
 54                      IN PTR  ender.cslabs.clarkson.edu.
 55                      IN PTR  koma.cslabs.clarkson.edu.
 67                      IN PTR  jenkins.cslabs.clarkson.edu.
-68                      IN PTR  git.cosi.clarkson.edu.
+69                      IN PTR  git.cosi.clarkson.edu.
 80                      IN PTR  tex.cslabs.clarkson.edu.
 81                      IN PTR  materiae.cslabs.clarkson.edu.
 91                      IN PTR  elephant.cslabs.clarkson.edu.
