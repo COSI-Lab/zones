@@ -6,7 +6,7 @@ const app = express();
 app.use(express.json())
 
 app.post('/', (req, res) => {
-    if (req.body.secret != process.env.SECRET) {
+    if (req.get("X-Gitlab-Token") != process.env.SECRET) {
         res.sendStatus(403);
         return;
     }
@@ -18,13 +18,15 @@ app.post('/', (req, res) => {
     exec("systemctl reload nsd", (error, _stdout, _stderr) => {
         if (error) {
             res.sendStatus(500);
+            console.log("failed")
         } else {
             res.sendStatus(200);
+            console.log("success")
         }
     });
 })
 
 const PORT = 8080
-app.listen(PORT, () => {
-    console.log(`Example app listening at http://localhost:${PORT}`)
+app.listen(PORT, "0.0.0.0", () => {
+    console.log(`GitLab webhook listener running at http://0.0.0.0:${PORT}`)
 })
