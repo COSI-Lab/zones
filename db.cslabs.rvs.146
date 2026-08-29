@@ -1,6 +1,6 @@
 $TTL 1h
 @                       IN SOA  taltres.cslabs.clarkson.edu. root.cslabs.clarkson.edu. (
-                                278     ; serial
+                                279     ; serial
                                 1d      ; refresh
                                 2h      ; retry
                                 1w      ; expire
@@ -10,5 +10,3 @@ $TTL 1h
 
 ; Reverse 128.153.146/24
 ; Note: the trailing dots are VERY IMPORTANT!
-3                       IN PTR  146dhcp.cslabs.clarkson.edu.
-25                      IN PTR  hnd-dev.cslabs.clarkson.edu.
