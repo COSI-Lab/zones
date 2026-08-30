@@ -6,7 +6,7 @@ After=network.target
 Type=simple
 User=root
 WorkingDirectory=/etc/nsd/zones
-ExecStart=npm start
+ExecStart=python3 webhook/main.py
 Restart=always
 
 [Install]
