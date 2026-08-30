@@ -1,6 +1,5 @@
-from fastapi import FastAPI, Request, Header, status
+from fastapi import FastAPI, Request, Header, HTTPException
 from dotenv import load_dotenv
-from annotated_types import Annotated
 import uvicorn
 import base64
 import hashlib
@@ -20,28 +19,29 @@ def valid_signature(signing_token, message_id, timestamp, body, received_signatu
 load_dotenv()
 
 app = FastAPI(docs_url=None,redoc_url=None)
-signing_token = os.environ.get("SIGNING_TOKEN") or ""
+signing_token = os.environ.get("SIGNING_TOKEN")
 
 @app.post("/")
-def handle_webhook(
-                   req: Request, 
-                   webhook_id: Annotated[str | None, Header()] = None,
-                   webhook_timestamp: Annotated[str | None, Header()] = None,
-                   webhook_signature: Annotated[str | None, Header()] = None
+async def handle_webhook(
+                   req: Request,
+                   webhook_id: str = Header(None),
+                   webhook_timestamp: str = Header(None),
+                   webhook_signature: str = Header(None)
                   ):
-    if valid_signature(signing_token, webhook_id, webhook_timestamp, req.body(), webhook_signature):
+    body = await req.body()
+    if valid_signature(signing_token, webhook_id, webhook_timestamp, body.decode('utf-8'), webhook_signature):
         print("Pulling new zone files")
         os.system("git reset --hard && git pull")
         rc = os.system("systemctl reload nsd")
         if rc == 0:
             print("Success")
-            return status.HTTP_200_OK
+            return
         else:
             print("Error when reloading NSD")
-            return status.HTTP_500_INTERNAL_SERVER_ERROR
+            raise HTTPException(status_code=500, detail="Error when reloading NSD")
     else:
         print("Bad signature!")
-        return status.HTTP_401_UNAUTHORIZED
+        raise HTTPException(status_code=401, detail="Bad signature")
 
 
 if __name__ == "__main__":
