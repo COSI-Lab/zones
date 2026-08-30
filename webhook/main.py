@@ -30,10 +30,17 @@ def handle_webhook(
                    webhook_signature: Annotated[str | None, Header()] = None
                   ):
     if valid_signature(signing_token, webhook_id, webhook_timestamp, req.body(), webhook_signature):
-        print("good")
-        return status.HTTP_200_OK
+        print("Pulling new zone files")
+        os.system("git reset --hard && git pull")
+        rc = os.system("systemctl reload nsd")
+        if rc == 0:
+            print("Success")
+            return status.HTTP_200_OK
+        else:
+            print("Error when reloading NSD")
+            return status.HTTP_500_INTERNAL_SERVER_ERROR
     else:
-        print("bad")
+        print("Bad signature!")
         return status.HTTP_401_UNAUTHORIZED
 
 
