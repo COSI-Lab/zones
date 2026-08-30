@@ -9,8 +9,8 @@ The way that you update a configuration is as follows:
 1. Clone down the repository locally to your computer
 2. Create a new branch 
 3. Add the changes you want (remember to add reverse DNS entries if you are adding A or AAAA records)
-4. Run `./update_serial.py` which auto increments serials for all zone files
-5. Run `./check_zones.py` to check your work
+4. Run `./scripts/update_serial.py` which auto increments serials for all zone files
+5. Run `./scripts/check_zones.py` to check your work
 6. Commit & Push your changes with a meaningful Git message. For example, "Serial 126, added random.cosi.clarkson.edu"
 7. Create a pull request and ask a reviewer to approve your work
 
