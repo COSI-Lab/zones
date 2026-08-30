@@ -12,11 +12,11 @@ The way that you update a configuration is as follows:
 4. Run `./update_serial.py` which auto increments serials for all zone files
 5. Run `./check_zones.py` to check your work
 6. Commit & Push your changes with a meaningful Git message. For example, "Serial 126, added random.cosi.clarkson.edu"
-7. Create a pull request and ask two reviewers to approve your work
+7. Create a pull request and ask a reviewer to approve your work
 
-The webhook attached to this repo should trigger Talos to pull down and load any changes. However if this fails:
+At present you will need to manually pull the zone files down to TalTRES to apply your changes:
 
-1. Log into TalDOS and **become root**
+1. Log into TalTRES and **become root**
 2. `cd /etc/nsd/zones`
 3. `git pull`
 4. `systemctl reload nsd`
