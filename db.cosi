@@ -57,7 +57,6 @@ wallace                 IN A            128.153.145.38
 gromit                  IN A            128.153.145.39
 tiamat                  IN A            128.153.145.41
 @                       IN A            128.153.145.41 ; we can't have a CNAME here sadly
-janet                   IN A            128.153.145.43
 bahamut                 IN A            128.153.145.42
 garrat                  IN A            128.153.145.43
 beaker                  IN A            128.153.145.46
