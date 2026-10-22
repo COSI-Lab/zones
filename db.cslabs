@@ -1,11 +1,10 @@
 $TTL 1h
 @                       IN SOA  taltres.cslabs.clarkson.edu. cosi.clarkson.edu. (
-                                283     ; serial
+                                284     ; serial
                                 1d      ; refresh
                                 2h      ; retry
                                 1w      ; expire
                                 1800 )  ; negative caching-ttl
-
 ; Nameservers
 @                       IN NS           taltres
 
@@ -58,7 +57,17 @@ wallace                 IN A            128.153.145.38
 gromit                  IN A            128.153.145.39
 tiamat                  IN A            128.153.145.41
 @                       IN A            128.153.145.41 ; we can't have a CNAME here sadly
+<<<<<<< Updated upstream
 hydra                   IN A            128.153.145.42
+<<<<<<< Updated upstream
+=======
+janet                   IN A            128.153.145.43
+eldwyn			IN A		128.153.145.45
+=======
+bahamut                 IN A            128.153.145.42
+garrat                  IN A            128.153.145.43
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
 beaker                  IN A            128.153.145.46
 caterpillar             IN A            128.153.145.52
 slop                    IN A            128.153.145.67

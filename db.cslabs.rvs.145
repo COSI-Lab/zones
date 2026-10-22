@@ -1,6 +1,6 @@
 $TTL 1h
 @                       IN SOA  taltres.cslabs.clarkson.edu. cosi.clarkson.edu. (
-                                283     ; serial
+                                284     ; serial
                                 1d      ; refresh
                                 2h      ; retry
                                 1w      ; expire
@@ -19,7 +19,17 @@ $TTL 1h
 38                      IN PTR  wallace.cslabs.clarkson.edu.
 39                      IN PTR  gromit.cslabs.clarkson.edu.
 41                      IN PTR  tiamat.cslabs.clarkson.edu.
+<<<<<<< Updated upstream
 42                      IN PTR  hydra.cslabs.clarkson.edu.
+<<<<<<< Updated upstream
+=======
+43                      IN PTR  janet.cslabs.clarkson.edu.
+45			            IN PTR  eldwyn.cslabs.clarkson.edu.
+=======
+42                      IN PTR  bahamut.cslabs.clarkson.edu.
+43                      IN PTR  garrat.cslabs.clarkson.edu.
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
 46                      IN PTR  beaker.cslabs.clarkson.edu.
 52                      IN PTR  caterpillar.cslabs.clarkson.edu.
 67                      IN PTR  slop.cslabs.clarkson.edu.
