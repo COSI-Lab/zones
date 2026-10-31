@@ -1,6 +1,6 @@
 $TTL 1h
 @                       IN SOA  taltres.cslabs.clarkson.edu. cosi.clarkson.edu. (
-                                285     ; serial
+                                286     ; serial
                                 1d      ; refresh
                                 2h      ; retry
                                 1w      ; expire
@@ -86,6 +86,7 @@ dns2                    IN CNAME        taltres
 
 talks                   IN CNAME        tiamat
 book                    IN CNAME        tiamat
+book2                   IN CNAME        bahamut
 docs                    IN CNAME        tiamat
 undocs                  IN CNAME        tiamat
 fsu                     IN CNAME        tiamat
